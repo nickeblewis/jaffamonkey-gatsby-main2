@@ -1,5 +1,5 @@
 ---
-name: Projects
+name: projects
 template: page-collection.html
 priority: 3
 linkTitle: Projects
