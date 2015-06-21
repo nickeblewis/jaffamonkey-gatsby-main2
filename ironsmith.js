@@ -29,16 +29,18 @@ function livereload(){
 
 // TODO - reorganize these tasks
 function build(production){
+  var configData;
+
+  if(production){
+    configData = config.production;
+  } else {
+    configData = config.development;
+  }
+
   return Metalsmith(__dirname)
     .clean(false)
-    .metadata(config)
-    .use(function(files, metadata, callback){
-      if(production){
-        drafts()(files, metadata, callback);
-      } else {
-        callback();
-      }
-    })
+    .metadata(configData)
+    .use(drafts())
     .use(templates({
       engine: 'swig',
       inPlace: true,
@@ -102,7 +104,7 @@ function build(production){
       }
     }))
     .use(sitemap({
-      hostname: 'http://eddywashere.com',
+      hostname: configData.site.url,
       defaults: {
         lastModified: Date.now()
       },
@@ -110,13 +112,7 @@ function build(production){
         lastModifed: Date.now()
       }
     }))
-    .use(function(files, metadata, callback){
-      if(production){
-        htmlMinifier()(files, metadata, callback);
-      } else {
-        callback();
-      }
-    })
+    .use(htmlMinifier())
     .destination('build/')
     .build(function(err,files){
       if (err){ console.log(err); }

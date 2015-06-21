@@ -95,5 +95,5 @@ gulp.task('watch:prod', function () {
 
 gulp.task('build', ['images', 'styles', 'scripts', 'metalsmith']);
 gulp.task('build:prod', ['images', 'styles', 'scripts', 'metalsmith:prod']);
-gulp.task('preview', ['watch:prod', 'build:prod', 'server']);
+gulp.task('preview', ['watch', 'build', 'server']);
 gulp.task('default', ['watch', 'build', 'server']);
