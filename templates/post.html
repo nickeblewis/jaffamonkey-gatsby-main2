@@ -8,6 +8,7 @@
     <p class="collapse">
       {% for tag in tags %}<a href="{{baseUrl}}/tags/{{tag | replace(' ', '-')}}" title="{{tag}}">{{tag}}</a>{% if !loop.last %}, {% endif %}{% endfor %}
     </p>
+    {% if !notweet %}<p class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://eddywashere.com/{{path}}" data-text="{{title}}" data-via="eddywashere" data-count="none">Tweet</a> &nbsp;</p>{% endif %}
   </div>
 </header>
 {% endblock %}
@@ -23,8 +24,9 @@
 {% endif %}
 {% endblock %}
 
-{% block comments %}
+{% block thirdparty %}
 <script type="text/javascript">
+  // disqus
   var disqus_shortname = '{{site.disqus}}';
   var disqus_title = '{{title}}';
   var disqus_url = '{{baseUrl || "http://localhost:8000"}}/{{path}}';
@@ -33,5 +35,7 @@
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 </script>
 {% endblock %}

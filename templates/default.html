@@ -19,10 +19,8 @@
       </div>
     </div>
     {% include 'partials/footer.html' %}
-    {% block comments %}{% endblock %}
     <script src="/js/scripts.js"></script>
-    {%if site.googleAnalytics %}
-    {% include 'partials/analytics.html' %}
-    {% endif %}
+    {%if site.googleAnalytics %}{% include 'partials/analytics.html' %}{% endif %}
+    {% block thirdparty %}{% endblock %}
   </body>
 </html>

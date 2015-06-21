@@ -364,3 +364,12 @@ img.avatar {
   position: relative;
   margin-top: $leading * 3;
 }
+
+.twitter {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.twitter-share-button {
+  visibility: hidden;
+}
