@@ -78,13 +78,15 @@ h2 {
     color: $heading-alt-color;
     font-weight: 400;
     line-height: 2 * $leading;
-    margin-top: 2 * $leading;
     @include responsive("font-size", ms(2) * 1.33,
       (
          m: ms(3),
         l: ms(3) * 1.15
       )
     );
+}
+* + h2 {
+  margin-top: 2 * $leading;
 }
 h3 {
     font-weight: 300;
