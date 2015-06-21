@@ -16,6 +16,7 @@ var swig = require('swig');
 var join = require('path').join;
 var config = require('./config.js');
 var http = require('http');
+var sitemap = require('metalsmith-sitemap');
 
 swig.setDefaults({
   cache: false
@@ -98,6 +99,15 @@ function build(production){
           },
           ignorekeys: ['history', 'stats', 'next', 'template', 'previous', 'collection', 'mode'],
         }
+      }
+    }))
+    .use(sitemap({
+      hostname: 'http://eddywashere.com',
+      defaults: {
+        lastModified: Date.now()
+      },
+      root: {
+        lastModifed: Date.now()
       }
     }))
     .use(function(files, metadata, callback){
