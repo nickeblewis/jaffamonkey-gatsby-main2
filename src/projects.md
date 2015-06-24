@@ -7,9 +7,9 @@ linkTitle: Projects
 
 ### Open Source
 
-#### [Node Prelaunch](https://github.com/mailgun/node-prelaunch)
+#### [Ironsmith](https://github.com/eddywashere/generator-ironsmith)
 
-A Mailgun powered landing page for capturing user sign ups while you work on building out your product. Includes [responsive transactional email templates](https://github.com/mailgun/transactional-email-templates), the ability to send post launch emails in batches and a deploy button.
+A yeoman generator that packages common features for building out a blog with metalsmith, gulp and scss. Also included is a beautiful theme ported from jekyll called pixyll.
 
 #### [Node Stripe Membership SAAS](https://github.com/eddywashere/node-stripe-membership-saas)
 
@@ -19,6 +19,14 @@ An express based app for creating a membership/subscription site with [Stripe](h
 
 An angular directive for selecting text content on click. Why? Some people prefer not to add flash to their site to enable copy to clipboard.
 The next best thing is to make it easier to select a block of content with 1 simple click.
+
+<hr>
+
+### Mailgun
+
+#### [Node Prelaunch](https://github.com/mailgun/node-prelaunch)
+
+A Mailgun powered landing page for capturing user sign ups while you work on building out your product. Includes [responsive transactional email templates](https://github.com/mailgun/transactional-email-templates), the ability to send post launch emails in batches and a deploy button.
 
 <hr>
 
