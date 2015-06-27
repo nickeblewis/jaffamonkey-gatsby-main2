@@ -12,15 +12,19 @@ var drafts = require('metalsmith-drafts');
 var pagination = require('metalsmith-pagination');
 var metallic = require('metalsmith-metallic');
 var htmlMinifier = require("metalsmith-html-minifier");
-var swig = require('swig');
 var join = require('path').join;
 var config = require('./config.js');
 var http = require('http');
 var sitemap = require('metalsmith-sitemap');
+var dateFilter = require('nunjucks-date-filter');
+var cons = require('consolidate');
+var env;
 
-swig.setDefaults({
-  cache: false
-});
+cons.requires.nunjucks = require('nunjucks');
+env = cons.requires.nunjucks.configure('./templates', {watch: false});
+
+dateFilter.setDefaultFormat('MMMM D, YYYY');
+env.addFilter('date', dateFilter);
 
 function livereload(){
   http.get("http://localhost:35729/changed?files=1", function(res) {})
@@ -42,7 +46,7 @@ function build(production){
     .metadata(configData)
     .use(drafts())
     .use(templates({
-      engine: 'swig',
+      engine: 'nunjucks',
       inPlace: true,
       pattern: '**/*.md'
     }))
@@ -86,7 +90,7 @@ function build(production){
     }))
     // render template data in markdown files
     .use(templates({
-      engine: 'swig'
+      engine: 'nunjucks'
     }))
     .use(writemetadata({
       bufferencoding: 'utf8',
