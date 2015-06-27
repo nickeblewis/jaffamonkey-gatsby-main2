@@ -3,10 +3,10 @@
 {% block title %}Eddy Hernandez | blog pg. {{pagination.num}}{% endblock %}
 
 {% block hero %}
-<header class="hero content {{ classModifier -}}">
+<header class="hero content {{ classModifier }}">
   <div class="l-container fluid">
     <h1>Blog</h1>
-    {% if pagination.next || pagination.previous %}<p>Page {{pagination.num}}</p>{% endif %}
+    {% if pagination.next or pagination.previous %}<p>Page {{pagination.num}}</p>{% endif %}
   </div>
 </header>
 {% endblock %}
@@ -17,7 +17,7 @@
   {% for post in pagination.files %}
     <div class="content">
       <a href="{{baseUrl}}/{{post.path}}">
-        <p class="content-date collapse">{{ post.date | date('M j, Y') }}</p>
+        <p class="content-date collapse">{{ post.date | date }}</p>
         <h4 class="content-title">{{post.title}}</h4>
         <p class="content-summary">
           {{post.excerpt | safe}}
@@ -26,7 +26,7 @@
     </div>
   {% endfor %}
 </div>
-{% if pagination.next || pagination.previous %}
+{% if pagination.next or pagination.previous %}
 <div class="pagination clearfix">
   <div class="left">
     {% if pagination.previous %}

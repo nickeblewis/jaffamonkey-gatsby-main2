@@ -3,14 +3,14 @@
 {% block title %}{{title}}{% endblock %}
 
 {% block hero %}
-<header class="hero content post {{ classModifier -}}">
+<header class="hero content post {{ classModifier }}">
   <div class="l-container fluid">
     <h1>{{ title }}</h1>
-    <p class="collapse">Published on {{ date | date('M j, Y') }}</p>
+    <p class="collapse">Published on {{ date | date }}</p>
     <p class="collapse">
-      {% for tag in tags %}<a href="{{baseUrl}}/tags/{{tag | replace(' ', '-')}}" title="{{tag}}">{{tag}}</a>{% if !loop.last %}, {% endif %}{% endfor %}
+      {% for tag in tags %}<a href="{{baseUrl}}/tags/{{tag | replace(' ', '-')}}" title="{{tag}}">{{tag}}</a>{% if not loop.last %}, {% endif %}{% endfor %}
     </p>
-    {% if !notweet %}<p class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://eddywashere.com/{{path}}" data-text="{{title}}" data-via="eddywashere" data-count="none">Tweet</a> &nbsp;</p>{% endif %}
+    {% if not notweet %}<p class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://eddywashere.com/{{path}}" data-text="{{title}}" data-via="eddywashere" data-count="none">Tweet</a> &nbsp;</p>{% endif %}
   </div>
 </header>
 {% endblock %}
@@ -19,7 +19,7 @@
 <div class="content">
   {{contents | safe}}
 </div>
-{% if site.comments && site.disqus %}
+{% if site.comments and site.disqus %}
 <div class="comments">
   <div id="disqus_thread"></div>
 </div>

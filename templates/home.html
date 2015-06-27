@@ -3,7 +3,7 @@
 {% block title %}Eddy Hernandez | UI Engineer{% endblock %}
 
 {% block hero %}
-<header class="hero content {{ classModifier || 'home' -}}">
+<header class="hero content {{ classModifier or 'home' }}">
   <div class="l-container fluid">
     {{contents | safe}}
   </div>
@@ -19,7 +19,7 @@
       {% if loop.index <= 3 %}
       <div class="content">
         <a href="{{baseUrl}}/{{post.path}}">
-          <p class="content-date collapse">{{ post.date | date('M j, Y') }}</p>
+          <p class="content-date collapse">{{ post.date | date }}</p>
           <h4 class="content-title">{{post.title}}</h4>
           <p class="content-summary">
             {{post.excerpt | safe}}
