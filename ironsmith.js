@@ -7,10 +7,11 @@ var collections = require('metalsmith-collections');
 var markdown = require('metalsmith-markdown');
 var templates = require('metalsmith-templates');
 var permalinks = require('metalsmith-permalinks');
+var branch = require('metalsmith-branch');
 var tags = require('metalsmith-tags');
 var drafts = require('metalsmith-drafts');
 var pagination = require('metalsmith-pagination');
-var metallic = require('metalsmith-metallic');
+var highlight = require('highlight.js');
 var htmlMinifier = require("metalsmith-html-minifier");
 var join = require('path').join;
 var config = require('./config.js');
@@ -61,12 +62,28 @@ function build(production){
         sortBy: 'priority'
       }
     }))
-    .use(metallic())
-    .use(markdown())
-    .use(permalinks({
+    .use(markdown({
+      langPrefix: 'hljs ',
+      highlight: function (code) {
+        return highlight.highlightAuto(code).value;
+      }
+    }))
+    .use(
+      branch(function(filename,props,i){
+        return props.collection[0] == 'posts';
+      }).use(permalinks({
         pattern: 'blog/:title',
         relative: false
-    }))
+      }))
+    )
+    .use(
+      branch(function(filename,props,i){
+        return props.collection[0] != 'posts';
+      }).use(permalinks({
+        pattern: ':title',
+        relative: false
+      }))
+    )
     .use(feed({collection: 'posts'}))
     .use(excerpts({
       pruneLength: 160

@@ -1,4 +1,5 @@
 ---
+title: Projects
 name: projects
 template: page-collection.html
 priority: 3

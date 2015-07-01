@@ -1,4 +1,5 @@
 ---
+title: Styleguide
 name: Styleguide
 template: page.html
 priority: 3

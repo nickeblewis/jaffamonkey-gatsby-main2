@@ -1,8 +1,10 @@
 ---
+title: Home
 name: home
 template: home.html
 priority: 1
 linkTitle: Home
+permalink: false
 ---
 
 <img class="avatar" src="/images/me.jpg" title="eddy was here">
