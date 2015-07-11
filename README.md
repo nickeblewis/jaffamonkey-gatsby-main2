@@ -1,4 +1,4 @@
-# eddywashere.com
+# eddywashere.com [![Build Status](http://img.shields.io/travis/eddywashere/eddywashere.com/master.svg)](https://travis-ci.org/eddywashere/eddywashere.com)
 
 This site is built with [metalsmith](http://www.metalsmith.io/) and a little something I'm calling ironsmith that packages up common metalsmith plugins.
 
