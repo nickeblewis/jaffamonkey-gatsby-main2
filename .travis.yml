@@ -5,7 +5,9 @@ branches:
   only:
     - master
 script: 'gulp build:prod'
-after_success: './scripts/deploy'
+after_success:
+  - chmod +x ./scripts/deploy
+  - './scripts/deploy'
 cache:
   directories:
     - node_modules
