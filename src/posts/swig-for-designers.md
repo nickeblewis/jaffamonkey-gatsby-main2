@@ -4,7 +4,6 @@ template: post.html
 date: 2015-06-20
 author: Eddy Hernandez
 tags: swig, node, templating
-draft: false
 ---
 
 ## What's Swig?
@@ -197,8 +196,7 @@ __Output__
 
 ### Raw
 
-Raw temporarily disables tag processing.
-This is useful for generating content (eg, Angular, Mustache, Handlebars) which uses conflicting syntax.
+Raw temporarily disables tag processing. This is useful for generating content (eg, Angular, Mustache, Handlebars) which uses conflicting syntax.
 
 {% endraw %}
 
