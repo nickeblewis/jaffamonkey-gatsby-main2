@@ -64,8 +64,12 @@ function build(production){
     }))
     .use(markdown({
       langPrefix: 'hljs ',
-      highlight: function (code) {
-        return highlight.highlightAuto(code).value;
+      highlight: function (code, lang) {
+        if(lang){
+          return highlight.highlight(lang, code).value;
+        } else {
+          return highlight.highlightAuto(code).value;
+        }
       }
     }))
     .use(

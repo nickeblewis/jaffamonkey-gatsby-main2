@@ -31,6 +31,7 @@
     "metalsmith-writemetadata": "0.4.4",
     "modularscale-sass": "^2.1.1",
     "nunjucks": "^1.3.4",
-    "nunjucks-date-filter": "^0.1.0"
+    "nunjucks-date-filter": "git://github.com/eddywashere/nunjucks-date-filter#e9f75db411b1b76fbd8f41bd17ce14418d40120f",
+    "pygments": "git://github.com/visionmedia/node-pygments"
   }
 }

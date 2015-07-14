@@ -131,6 +131,15 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   color: #e6db74;
 }
 
+.bash, .sh {
+  .hljs-built_in {
+    color: #a6e22e;
+  }
+  .hljs-string {
+    color: #f8f8f2;
+  }
+}
+
 .hljs-comment,
 .hljs-annotation,
 .hljs-decorator,
@@ -140,7 +149,11 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .hljs-shebang,
 .apache .hljs-sqbracket,
 .tex .hljs-formula {
-  color: #75715e;
+  color: #999;
+}
+
+.hljs-comment {
+  font-style: italic;
 }
 
 .coffeescript .javascript,
