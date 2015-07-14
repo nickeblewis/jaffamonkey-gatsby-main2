@@ -164,9 +164,9 @@ In order to copy files we'll use the `cp` command. Try copying `foo.txt`.
 <pre><code class="hljs bash"><span class="hljs-built_in">cp </span>foo.txt foo_copy.txt
 </code></pre>
 
-Next let's copy the `test` directory we made earlier and name this new copy `exam`.
+Next let's copy the `test` directory we made earlier and name this new copy `exam`. We'll have to use the `-r` argument to ensure it recursively copies the directory and any files inside of it.
 
-<pre><code class="hljs bash"><span class="hljs-built_in">cp </span>test exam
+<pre><code class="hljs bash"><span class="hljs-built_in">cp </span>-r test exam
 </code></pre>
 
 In this last `cp` example we'll copy bar.txt into the exam directory.
@@ -178,7 +178,7 @@ Here's a break down of the `cp` command
 
  - the first argument after `cp` is the file or directory location
  - the second argument is the destination of the file or directory
- - `cp filename.txt copyoffilename.txt` or `cp dir_path dir_path_copy`
+ - `cp filename.txt copyoffilename.txt` or `cp -r dir_path dir_path_copy`
 
 ### Move & Rename Files
 
