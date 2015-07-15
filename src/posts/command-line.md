@@ -209,9 +209,9 @@ The `rm` command is used to delete files and/or directories. Unlike deleting a f
 <pre><code class="hljs bash"><span class="hljs-built_in">rm </span>foobar.txt
 </code></pre>
 
-Next, let's delete the `test` directory within the `exams` folder. We'll pass `-rf` as an argument to remove everything within `exams/test`.
+Next, let's delete the `test` directory within the `quiz` folder. We'll pass `-rf` as an argument to remove everything within `quiz/test`.
 
-<pre><code class="hljs bash"><span class="hljs-built_in">rm </span>-rf exams/test
+<pre><code class="hljs bash"><span class="hljs-built_in">rm </span>-rf quiz/test
 </code></pre>
 
 ## Tips & Tricks
