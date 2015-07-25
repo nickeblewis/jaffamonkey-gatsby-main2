@@ -10,7 +10,7 @@
     <p class="collapse">
       {% for tag in tags %}<a href="{{baseUrl}}/tags/{{tag | replace(' ', '-')}}" title="{{tag}}">{{tag}}</a>{% if not loop.last %}, {% endif %}{% endfor %}
     </p>
-    {% if not notweet %}<p class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://eddywashere.com/{{path}}" data-text="{{title}}" data-via="eddywashere" data-count="none">Tweet</a> &nbsp;</p>{% endif %}
+    {% if not notweet %}<p class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://eddywashere.com/{{path}}" data-text="{{title}}" data-via="eddywashere">Tweet</a> &nbsp;</p>{% endif %}
   </div>
 </header>
 {% endblock %}
