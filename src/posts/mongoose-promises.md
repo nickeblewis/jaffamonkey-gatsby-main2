@@ -47,7 +47,7 @@ User.findById('123', function(err, user) {
 });
 ```
 
-The above callback example shows the first level of nesting and multiple error handlers. That's not too bad but with more logic it can easily become visually overwhelming. In the last example, I'll show what the same task looks like using promises. We'll switch to using Model queries that return a promise via the `.exec()` function.
+The above callback example shows the first level of nesting and multiple error handlers. That's not too bad, but with more logic it can easily become visually overwhelming. In the last example, I'll show what the same task looks like using promises. We'll switch to using Model queries that return a promise via the `.exec()` function.
 
 ```js
 var promise = User.findById('123').exec();
