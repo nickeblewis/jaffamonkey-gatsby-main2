@@ -25,6 +25,10 @@ The next best thing is to make it easier to select a block of content with 1 sim
 
 ### Mailgun
 
+### [Mailgun-js SDK](https://github.com/mailgun/mailgun-js)
+
+A javascript sdk for Mailgun built with webpack, babel & es6. This can be used in node or in the browser.
+
 #### [Node Prelaunch](https://github.com/mailgun/node-prelaunch)
 
 A Mailgun powered landing page for capturing user sign ups while you work on building out your product. Includes [responsive transactional email templates](https://github.com/mailgun/transactional-email-templates), the ability to send post launch emails in batches and a deploy button.
@@ -36,3 +40,7 @@ A Mailgun powered landing page for capturing user sign ups while you work on bui
 #### [Canon](http://rackerlabs.github.io/canon)
 
 Contributed to Rackspace's front-end framework, Canon.
+
+#### [passport-keystone](https://github.com/eddywashere/passport-keystone)
+
+OpenStack Keystone authentication strategy for Passport.js.
