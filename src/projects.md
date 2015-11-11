@@ -25,7 +25,7 @@ The next best thing is to make it easier to select a block of content with 1 sim
 
 ### Mailgun
 
-### [Mailgun-js SDK](https://github.com/mailgun/mailgun-js)
+#### [Mailgun-js SDK](https://github.com/mailgun/mailgun-js)
 
 A javascript sdk for Mailgun built with webpack, babel & es6. This can be used in node or in the browser.
 
