@@ -11,7 +11,7 @@ permalink: false
 
 <h3 class="collapse">Eddy Hernandez</h3>
 
-<p class="leading">UI Engineer @ [Mailgun](http://www.mailgun.com/) / San Francisco, CA</p>
+<p class="leading">Engineer @ [ScaleFT](https://scaleft.com/) / San Francisco, CA</p>
 
 I craft & code interfaces for highly technical products used by companies all over the world.
 
