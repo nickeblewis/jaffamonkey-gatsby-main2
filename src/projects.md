@@ -8,6 +8,10 @@ linkTitle: Projects
 
 ### Open Source
 
+#### [reactstrap](https://reactstrap.github.io)
+
+Easy to use React Bootstrap 4 components. This library contains React components that favor composition and control. The library does not depend on jQuery or Bootstrap javascript. However, Tether is relied upon for advanced positioning of content like Tooltips, Popovers, and auto-flipping Dropdowns.
+
 #### [Ironsmith](https://github.com/eddywashere/generator-ironsmith)
 
 A yeoman generator that packages common features for building out a blog with metalsmith, gulp and scss. Also included is a beautiful theme ported from jekyll called pixyll.
