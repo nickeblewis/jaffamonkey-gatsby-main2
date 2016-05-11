@@ -7,12 +7,12 @@ linkTitle: Home
 permalink: false
 ---
 
-<img class="avatar" src="/images/me.jpg" title="eddy was here">
+<img class="avatar" src="/images/me.jpg" title="Eddy Hernandez">
 
 <h3 class="collapse">Eddy Hernandez</h3>
 
-<p class="leading">Engineer @ [ScaleFT](https://scaleft.com/) / San Francisco, CA</p>
+<p class="leading">UI Engineer / San Francisco, CA</p>
 
 I craft & code interfaces for highly technical products used by companies all over the world.
 
-<p><a href="/projects" class="btn">View Projects</a> <!-- <a href="/contact" class="btn outline">View Projects</a> --></p>
+<p><a href="/projects" class="btn">View Projects</a></p>
