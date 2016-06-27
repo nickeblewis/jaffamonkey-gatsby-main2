@@ -171,7 +171,7 @@ Next let's copy the `test` directory we made earlier and name this new copy `exa
 
 In this last `cp` example we'll copy bar.txt into the exam directory.
 
-<pre><code class="hljs bash"><span class="hljs-built_in">cp </span>bar.text exam/bar.txt
+<pre><code class="hljs bash"><span class="hljs-built_in">cp </span>bar.txt exam/bar.txt
 </code></pre>
 
 Here's a break down of the `cp` command
