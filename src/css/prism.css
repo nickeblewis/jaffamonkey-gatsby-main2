@@ -1,0 +1,151 @@
+pre {
+  margin: 1.5rem 0;
+}
+
+code {
+  background-color: #f1f1f1;
+  font-size: smaller;
+  padding: .2rem .3rem;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+}
+
+code[class*="language-"] {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+  line-height: 1.5rem;
+  font-size: .9rem;
+  background: #23241f;
+  -webkit-text-size-adjust: none
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: .4em .8em;
+	margin: .5em 0;
+	overflow: auto;
+	background: "#222";
+}
+
+code[class*="language-"] {
+	background: #121212;
+	color: #f1f1f1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  code[class*="language-"] {
+    /*margin: 0 -2rem;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  code[class*="language-"] {
+    /*margin: 0 -5rem;*/
+  }
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .2em;
+	border-radius: .3em;
+	box-shadow: none;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #aaa;
+}
+
+.token.punctuation {
+	color: #e8e8e8;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+	color: #f92672;
+}
+
+.token.selector,
+.token.string,
+.token.char,
+.token.builtin {
+	color: #E2D62E;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.toke.variable,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.atrule,
+.token.attr-value {
+	color: #f92672;
+}
+
+.token.keyword {
+  color: #66D9EF;
+}
+
+.token.class-name, .token.attr-name {
+  color: #A6E22E;
+}
+
+.token.regex,
+.token.important {
+	color: orange;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.deleted {
+	color: red;
+}

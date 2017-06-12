@@ -1,9 +1,14 @@
 ---
 title: Switching out callbacks with promises in Mongoose
 template: post.html
-date: 2015-07-28
+date: "2015-07-28"
 author: Eddy Hernandez
-tags: mongo node mongoose promises
+tags:
+    - mongo
+    - node
+    - mongoose
+    - promises
+draft: false
 ---
 
 Working with promises and mongoose just became a whole lot easier with the [4.1 release](https://github.com/Automattic/mongoose/blob/master/History.md#410--2015-07-24), which added the ability to specify alternative promise libraries. Prior to that, promise support was limited to the [mpromise](https://github.com/aheckmann/mpromise) way of using promises. For some folks, including myself, this meant there wasn't a friendly `.catch` method available to the promise chain. In this post, I'll quickly cover how to switch over to other supported promise libraries and show how using promises can clean up your mongoose callbacks.

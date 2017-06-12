@@ -1,9 +1,15 @@
 ---
 title: Ironsmith, a yeoman generator for metalsmith
 template: post.html
-date: 2015-06-22
+date: "2015-06-22"
 author: Eddy Hernandez
-tags: metalsmith, gulp, static site, yeoman, generator
+tags:
+    - metalsmith
+    - gulp
+    - static site
+    - yeoman
+    - generator
+draft: false
 ---
 
 Looking to give [metalsmith](http://metalsmith.io) a try but don't want to deal with configuration? Try out [Ironsmith](https://github.com/eddywashere/generator-ironsmith), a [yeoman generator](http://yeoman.io/) that packages common features for building out a blog with metalsmith, gulp and scss. Also included is a beautiful theme ported from jekyll called [pixyll](https://github.com/johnotander/pixyll). Check out the live demo [here](http://eddywashere.github.io/ironsmith-demo).
