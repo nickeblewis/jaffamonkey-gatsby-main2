@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
 import isArray from 'lodash/isArray';
@@ -102,7 +103,7 @@ class BlogIndex extends React.Component {
 }
 
 BlogIndex.propTypes = {
-  route: React.PropTypes.object
+  route: PropTypes.object
 };
 
 export default BlogIndex;
@@ -114,17 +115,23 @@ query BlogQuery {
       title
     }
   }
-  allMarkdownRemark(fields: { collection: { eq: "posts" }}) {
+  allMarkdownRemark(
+    sort: { order: DESC, fields: [frontmatter___date] },
+    filter: {
+      frontmatter: { draft: { ne: true } },
+      fields: { collection: { eq: "posts" }}
+    }
+  ) {
     edges {
       node {
         excerpt(pruneLength: 168),
-        fields {
-          slug
-        }
         frontmatter {
           title,
           tags,
           date
+        }
+        fields {
+          slug
         }
       }
     }

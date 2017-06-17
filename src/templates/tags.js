@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
 import isArray from 'lodash/isArray';
@@ -93,7 +94,7 @@ class TagsTemplate extends React.Component {
 }
 
 TagsTemplate.propTypes = {
-  route: React.PropTypes.object
+  route: PropTypes.object
 };
 
 export default TagsTemplate;
@@ -101,8 +102,10 @@ export default TagsTemplate;
 export const pageQuery = graphql`
   query BlogPostsByTags($tag: String!) {
     allMarkdownRemark(
-      frontmatter: { tags: { in: [$tag] } }
-      fields: { collection: { eq: "posts" } }
+      filter: {
+        frontmatter: { tags: { in: [$tag] } }
+        fields: { collection: { eq: "posts" } }
+      }
     ) {
       edges {
         node {

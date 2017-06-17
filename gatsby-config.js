@@ -76,15 +76,19 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 20,
-                  sortBy: { order: DESC, fields: [frontmatter___date] },
-                  frontmatter: { draft: { ne: true } },
-                  fields: { collection: { eq: "posts" }}
+                  sort: {order: DESC, fields: [frontmatter___date]},
+                  filter:{
+                    frontmatter: {draft: {ne: true}},
+                    fields: {collection: {eq: "posts"}}
+                  }
                 ) {
                   edges {
                     node {
                       excerpt
                       html
-                      fields { slug }
+                      fields {
+                        slug
+                      }
                       frontmatter {
                         title
                         date
@@ -99,6 +103,6 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-offline`
+    // `gatsby-plugin-offline` TODO: wait for https://github.com/gatsbyjs/gatsby/issues/1189
   ]
 };
