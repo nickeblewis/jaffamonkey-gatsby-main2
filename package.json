@@ -38,6 +38,10 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "aws": "aws --profile ewh",
+    "pres3-sync": "npm run aws -- s3 sync s3://site-eddywashere.com/latest s3://site-eddywashere.com/revert --delete",
+    "s3-sync": "npm run aws -- s3 sync ./public s3://site-eddywashere.com/latest --acl public-read --sse --delete",
+    "s3-revert": "npm run aws -- s3 sync s3://site-eddywashere.com/revert s3://site-eddywashere.com/latest --acl public-read --sse --delete"
   }
 }
