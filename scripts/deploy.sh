@@ -26,10 +26,10 @@ fi
 
 if [ "$S3PATH" == "latest" ]; then
   echo "backing up current site..."
-  echo "npm run s3:backup"
+  npm run s3:backup
 fi
 
 echo "deploying site..."
-echo "S3PATH=${S3PATH} npm run s3:upload"
+S3PATH=${S3PATH} npm run s3:upload
 
 success "pushed site to $S3PATH"

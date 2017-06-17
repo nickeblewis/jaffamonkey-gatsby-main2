@@ -37,6 +37,7 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
+    "test": "echo \"Skipping tests\" && exit 0",
     "prebuild": "rm -rf ./public",
     "build": "gatsby build",
     "deploy:prod": "S3PATH=latest ./scripts/deploy.sh",
