@@ -18,10 +18,11 @@ if [ -z "$S3PATH" ]; then
 fi
 
 if [ "$S3PATH" == "latest" ]; then
-  echo "backing up current site..."
+  echo "building site without prefix..."
   S3PATH=${S3PATH} npm run build
 else
-  S3PATH=${S3PATH} npm run build --prefix-paths
+  echo "building site with prefix - '${S3PATH}'..."
+  S3PATH=${S3PATH} npm run build -- --prefix-paths
 fi
 
 if [ ! -d $BUILD_DIR ]; then
