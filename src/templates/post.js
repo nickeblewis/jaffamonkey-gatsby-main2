@@ -52,7 +52,7 @@ class BlogPost extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <ContentHeader title={post.frontmatter.title} date={`Published on ${date}`} tags={tags} />
+        <ContentHeader title={post.frontmatter.title} date={date} tags={tags} />
         <Wrapper tag="main">
           <Container>
             <article className="markdown" dangerouslySetInnerHTML={{ __html: post.html }} />
