@@ -1,8 +1,9 @@
 const siteUrl = process.env.NODE_ENV === 'production'
   ? 'http://eddywashere.com'
   : 'http://localhost:8000';
+const S3PATH = process.env.S3PATH;
 
-module.exports = {
+const config = {
   siteMetadata: {
     title: 'eddywashere.com',
     description: 'Eddy Hernandez - UI Engineer / San Francisco, CA',
@@ -106,3 +107,9 @@ module.exports = {
     // `gatsby-plugin-offline` TODO: wait for https://github.com/gatsbyjs/gatsby/issues/1189
   ]
 };
+
+if (S3PATH && S3PATH !== 'latest') {
+  config.pathPrefix = `/${S3PATH}`
+}
+
+module.exports = config;
