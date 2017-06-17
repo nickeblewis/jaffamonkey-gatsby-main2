@@ -16,9 +16,7 @@ This post is inspired by the terrible experiences I had when I first started wor
 
 If you're not comfortable with that option, you can always use the default terminal found in OS X at: `Applications > Utilities > Terminal.app`
 
-<p class="stretch">
-  ![Terminal.app]({{baseUrl}}/images/posts/finder-terminal-app.png)
-</p>
+![Terminal.app](./img/terminal.png)
 
 Throughout this post I'll have code examples to highlight commands and their output. The examples will use the following documentation style:
 

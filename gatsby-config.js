@@ -33,7 +33,7 @@ const config = {
           {
             resolve: `gatsby-remark-responsive-image`,
             options: {
-              maxWidth: 590
+              maxWidth: 600
             }
           },
           {

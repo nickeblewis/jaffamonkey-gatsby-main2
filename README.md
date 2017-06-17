@@ -25,7 +25,7 @@ npm run build
 ### Deployment
 
 ```
-npm run s3-sync
+npm run s3:upload
 ```
 
 Revert to last deploy
