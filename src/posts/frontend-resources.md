@@ -1,9 +1,14 @@
 ---
 title: HTML, CSS & Javascript Resources
 template: post.html
-date: 2015-06-17
+date: "2015-06-17"
 author: Eddy Hernandez
-tags: frontend, resources, html, css, javascript
+tags:
+    - frontend
+    - resources
+    - html
+    - css
+    - javascript
 draft: false
 ---
 

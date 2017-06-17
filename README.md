@@ -1,37 +1,35 @@
-# eddywashere.com [![Build Status](http://img.shields.io/travis/eddywashere/eddywashere.com/master.svg)](https://travis-ci.org/eddywashere/eddywashere.com)
+# eddywashere.com
 
-This site is built with [metalsmith](http://www.metalsmith.io/) and a little something I'm calling ironsmith that packages up common metalsmith plugins.
+This site is built with [gatsby](https://www.gatsbyjs.org/).
 
-Features include
-
-- simple layouts
-- swig templating - includes ability to have templates in markdown (posts)
-- default posts collection
-- page collection
-- tags - list page & individual tag pages
-- posts collection in json available at `/posts/index.json`
+### Development
 
 Install dependencies
 
 ```
-npm install gulp -g
-npm install
+yarn
 ```
 
 Run local server on http://localhost:8000
 
 ```
-gulp preview
+npm start
 ```
 
 Build files
 
 ```
-gulp build
+npm run build
 ```
 
-Deploy to github pages with
+### Deployment
 
 ```
-gulp deploy
+npm run s3-sync
+```
+
+Revert to last deploy
+
+```
+npm run s3-revert
 ```

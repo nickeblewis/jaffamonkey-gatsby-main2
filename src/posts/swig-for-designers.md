@@ -1,9 +1,13 @@
 ---
 title: Swig For Designers
 template: post.html
-date: 2015-06-20
+date: "2015-06-20"
 author: Eddy Hernandez
-tags: swig, node, templating
+tags:
+    - swig
+    - node
+    - templating
+draft: false
 ---
 
 ## What's Swig?
@@ -27,17 +31,15 @@ First off, there are two main types of markup in Swig
 - Output Tags
 - Logic Tags
 
-{% raw %}
-
 __Output tags__ are surrounded by double curly brackets and are expected to render content if the data exists.
 
-```django
+```python
 {{ data }}
 ```
 
 __Logic tags__ begin with a curly bracket and then percent sign. These tags control output through common logic operators and helpers.
 
-```django
+```python
 {% if foo %} this is rendered if foo == true {% endif %}
 ```
 
@@ -45,7 +47,7 @@ __Logic tags__ begin with a curly bracket and then percent sign. These tags cont
 
 Here's a simple example of Output:
 
-```django
+```python
 # context = {name: 'world', user: {greeting: 'hello'}};
 
 Hello {{ name }}
@@ -62,7 +64,7 @@ Hello {{ 'bob' }}
 
 Output tags can process content through filters.  Filters are simple methods.  The first parameter is always the output of the left side of the filter.  The return value of the filter will be the new left value when the next filter is run.  When there are no more filters, the template will receive the resulting string.
 
-```django
+```python
 context = {name: 'world'};
 
 Hello {{ 'world' | upper }}
@@ -112,7 +114,7 @@ Layouts can define `blocks` of content areas that are placeholders for content f
 
 __layout.html__
 
-```django
+```python
 <!doctype html>
 <html>
 <head>
@@ -131,7 +133,7 @@ __layout.html__
 
 __page.html__
 
-```django
+```python
 {% extends 'layout.html' %}
 
 {% block title %}My Page{% endblock %}
@@ -170,7 +172,7 @@ You can include a template partial with the current local data available to it o
 
 __partial.html__
 
-```django
+```python
 <ul>
 {% for tag in tags %}<li>{{ tag }}</li>{% endfor %}
 </ul>
@@ -178,7 +180,7 @@ __partial.html__
 
 __page.html__
 
-```django
+```python
 // var tags = ['node', 'swig', 'templating']
 {% include "./partial.html" %}
 ```
@@ -198,13 +200,9 @@ __Output__
 
 Raw temporarily disables tag processing. This is useful for generating content (eg, Angular, Mustache, Handlebars) which uses conflicting syntax.
 
-{% endraw %}
-
-```django
-In Angular.js, {{ '{% raw %}' }}{% raw %}{{ data }}{% endraw %}{{ '{% endraw %}' }} will be HTML-escaped.
+```python
+In Angular.js, {% raw %}{{ data }}{% endraw %} will be HTML-escaped.
 ```
-
-{% raw %}
 
 ### If / Else
 
@@ -212,20 +210,20 @@ In Angular.js, {{ '{% raw %}' }}{% raw %}{{ data }}{% endraw %}{{ '{% endraw %}'
 Swig allows you to write simple expressions in the `if` (and
 optionally, `elseif`) clause:
 
-```django
+```python
 {% if user %}
   Hello {{ user.name }}
 {% endif %}
 ```
 
-```
+```python
 # Same as above
 {% if user != null %}
   Hello {{ user.name }}
 {% endif %}
 ```
 
-```django
+```python
 {% if user.name == 'tobi' %}
   Hello tobi
 {% elseif user.name == 'bob' %}
@@ -233,7 +231,7 @@ optionally, `elseif`) clause:
 {% endif %}
 ```
 
-```django
+```python
 {% if user.name == 'tobi' or user.name == 'bob' %}
   Hello tobi or bob
 {% endif %}
@@ -245,7 +243,7 @@ optionally, `elseif`) clause:
 {% endif %}
 ```
 
-```django
+```python
 {% if user.name == 'bob' and user.age > 45 %}
   Hello old bob
 {% endif %}
@@ -257,13 +255,13 @@ optionally, `elseif`) clause:
 {% endif %}
 ```
 
-```django
+```python
 {% if user.name != 'tobi' %}
   Hello non-tobi
 {% endif %}
 ```
 
-```django
+```python
 # Check for the size of an array
 {% if user.payments.length %}
    you never paid !
@@ -274,7 +272,7 @@ optionally, `elseif`) clause:
 {% endif %}
 ```
 
-```django
+```python
 {% if user.age > 18 %}
    Login here
 {% else %}
@@ -282,14 +280,14 @@ optionally, `elseif`) clause:
 {% endif %}
 ```
 
-```django
+```python
 # array = 1,2,3
 {% if array.indexOf(2) > -1 %}
    array includes 2
 {% endif %}
 ```
 
-```django
+```python
 # string = 'hello world'
 {% if string.indexOf('hello world') > -1 %}
    string includes 'hello'
@@ -300,7 +298,7 @@ optionally, `elseif`) clause:
 
 Swig allows `for` loops over arrays and objects:
 
-```django
+```python
 {% for item in ['one', 'two', 'three'] %}
   {{ item }}
 {% endfor %}
@@ -313,7 +311,7 @@ three
 ```
 
 
-```django
+```python
 {% set obj = {'one': 'value', 'two': 'other value'} %}
 {% for x in obj %}
   {% if loop.first %}<ul>{% endif %}
@@ -343,7 +341,7 @@ styling needs:
 
 Reversing the loop
 
-```django
+```python
 {% for item in collection | reverse %} {{item}} {% endfor %}
 ```
 
@@ -353,7 +351,7 @@ You can store data in your own variables, to be used in output or other tags as
 desired.  The simplest way to create a variable is with the `set` tag, which
 has a pretty straightforward syntax:
 
-```django
+```python
 {% set name = 'freestyle' %}
 
 {% for t in collections.tags %}{% if t == name %}
@@ -364,7 +362,7 @@ has a pretty straightforward syntax:
 Another way of doing this would be to assign `true / false` values to the
 variable:
 
-```django
+```python
 {% set freestyle = false %}
 
 {% for t in collections.tags %}{% if t == 'freestyle' %}
@@ -382,26 +380,24 @@ Comments do not adhere to the curly bracket plus percent sign tag or the double 
 
 Check out the following examples:
 
-```django
+```python
 We made 1 million dollars {# in losses #} this year
 ```
 
 Which outputs to
 
-```django
+```python
 We made 1 million dollars this year
 ```
 
 Multiline Comments
 
-```django
+```python
 {#
 This is a comment.
 It will be fully stripped and ignored during parsing.
 #}
 ```
-
-{% endraw %}
 
 ## Wrapping things up
 
