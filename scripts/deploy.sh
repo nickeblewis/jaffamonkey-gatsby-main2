@@ -17,7 +17,12 @@ if [ -z "$S3PATH" ]; then
   S3PATH=$CURRENT_BRANCH
 fi
 
-S3PATH=${S3PATH} npm run build
+if [ "$S3PATH" == "latest" ]; then
+  echo "backing up current site..."
+  S3PATH=${S3PATH} npm run build
+else
+  S3PATH=${S3PATH} npm run build --prefix-paths
+fi
 
 if [ ! -d $BUILD_DIR ]; then
   error "Build directory does not exist. Stopping deploy < / 3"
