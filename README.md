@@ -2,6 +2,8 @@
 
 This site is built with [gatsby](https://www.gatsbyjs.org/).
 
+### Development
+
 Install dependencies
 
 ```
@@ -18,4 +20,16 @@ Build files
 
 ```
 npm run build
+```
+
+### Deployment
+
+```
+npm run s3-sync
+```
+
+Revert to last deploy
+
+```
+npm run s3-revert
 ```
