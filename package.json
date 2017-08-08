@@ -1,9 +1,9 @@
 {
-  "name": "eddywashere",
+  "name": "jaffamonkey",
   "private": true,
   "description": "website",
   "version": "1.0.0",
-  "author": "eddy hernandez <edward.d.hernandez@gmail.com>",
+  "author": "jaffamonkey <edward.d.hernandez@gmail.com>",
   "dependencies": {
     "date-fns": "^1.28.5",
     "gatsby": "next",
@@ -43,8 +43,8 @@
     "deploy:prod": "S3PATH=latest ./scripts/deploy.sh",
     "deploy:dev": "S3PATH=dev ./scripts/deploy.sh",
     "deploy": "./scripts/deploy.sh",
-    "s3:backup": "aws s3 sync s3://site-eddywashere.com/latest s3://site-eddywashere.com/revert --delete",
-    "s3:upload": "aws s3 sync ./public s3://site-eddywashere.com/$S3PATH --acl public-read --sse --delete",
-    "s3:revert": "aws s3 sync s3://site-eddywashere.com/revert s3://site-eddywashere.com/latest --acl public-read --sse --delete"
+    "s3:backup": "aws s3 sync s3://site-jaffamonkey.com/latest s3://site-jaffamonkey.com/revert --delete",
+    "s3:upload": "aws s3 sync ./public s3://site-jaffamonkey.com/$S3PATH --acl public-read --sse --delete",
+    "s3:revert": "aws s3 sync s3://site-jaffamonkey.com/revert s3://site-jaffamonkey.com/latest --acl public-read --sse --delete"
   }
 }

@@ -1,15 +1,15 @@
 const siteUrl = process.env.NODE_ENV === 'production'
-  ? 'http://eddywashere.com'
+  ? 'http://jaffamonkey.com'
   : 'http://localhost:8000';
 const S3PATH = process.env.S3PATH;
 
 const config = {
   siteMetadata: {
-    title: 'eddywashere.com',
-    description: 'Eddy Hernandez - UI Engineer / San Francisco, CA',
+    title: 'jaffamonkey.com',
+    description: 'jaffamonkey - Test Engineering & DevOps / London, UK',
     site_url: siteUrl,
     link: siteUrl,
-    author: 'Eddy Hernandez'
+    author: 'jaffamonkey'
   },
   plugins: [
     {

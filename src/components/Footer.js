@@ -27,13 +27,13 @@ const Footer = props => {
     <footer css={css.wrapper}>
       <div css={css.container}>
         {renderSelfie &&
-          <img css={css.selfie} src={selfie} title="Eddy Hernandez" />}
+          <img css={css.selfie} src={selfie} title="jaffamonkey" />}
         <p css={css.p}>
-          <strong>eddy was here</strong>
+          <strong>jaffamonkey was here</strong>
         </p>
         <p css={css.p}>
-          follow me on <a href="https://twitter.com/eddywashere/">twitter</a>{' '}
-          &amp; <a href="https://github.com/eddywashere">github</a>
+          follow me on <a href="https://twitter.com/jaffamonkey/">twitter</a>{' '}
+          &amp; <a href="https://github.com/jaffamonkey">github</a>
         </p>
       </div>
     </footer>

@@ -30,7 +30,7 @@ module.exports = props => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Eddy Hernandez - UI Engineer / San Francisco, CA"
+          content="jaffamonkey - UI Engineer / San Francisco, CA"
         />
         <link href={require('./images/ewh.ico')} rel="icon" />
         {props.headComponents}
@@ -41,7 +41,7 @@ module.exports = props => {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="eddywashere.com"
+          title="jaffamonkey.com"
           href="/rss.xml"
         />
       </head>

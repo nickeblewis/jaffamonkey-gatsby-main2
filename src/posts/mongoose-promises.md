@@ -2,7 +2,7 @@
 title: Switching out callbacks with promises in Mongoose
 template: post.html
 date: "2015-07-28"
-author: Eddy Hernandez
+author: jaffamonkey
 tags:
     - mongo
     - node

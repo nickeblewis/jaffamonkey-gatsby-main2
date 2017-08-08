@@ -2,7 +2,7 @@
 title: Ironsmith, a yeoman generator for metalsmith
 template: post.html
 date: "2015-06-22"
-author: Eddy Hernandez
+author: jaffamonkey
 tags:
     - metalsmith
     - gulp
@@ -12,7 +12,7 @@ tags:
 draft: false
 ---
 
-Looking to give [metalsmith](http://metalsmith.io) a try but don't want to deal with configuration? Try out [Ironsmith](https://github.com/eddywashere/generator-ironsmith), a [yeoman generator](http://yeoman.io/) that packages common features for building out a blog with metalsmith, gulp and scss. Also included is a beautiful theme ported from jekyll called [pixyll](https://github.com/johnotander/pixyll). Check out the live demo [here](http://eddywashere.github.io/ironsmith-demo).
+Looking to give [metalsmith](http://metalsmith.io) a try but don't want to deal with configuration? Try out [Ironsmith](https://github.com/jaffamonkey/generator-ironsmith), a [yeoman generator](http://yeoman.io/) that packages common features for building out a blog with metalsmith, gulp and scss. Also included is a beautiful theme ported from jekyll called [pixyll](https://github.com/johnotander/pixyll). Check out the live demo [here](http://jaffamonkey.github.io/ironsmith-demo).
 
 ### System Prerequisites
 
@@ -62,7 +62,7 @@ If everything went ok, you'll be able to preview your site at [http://localhost:
 gulp preview
 ```
 
-Your site should look very similar to this demo: [eddywashere.github.io/ironsmith-demo/](https://eddywashere.github.io/ironsmith-demo/).
+Your site should look very similar to this demo: [jaffamonkey.github.io/ironsmith-demo/](https://jaffamonkey.github.io/ironsmith-demo/).
 
 ### Understanding the project structure
 
@@ -121,4 +121,4 @@ Then run `yo ironsmith` to regenerate any files like `ironsmith.js` or `Gulpfile
 
 ### That's it!
 
-Hopefully I covered everything you need to get started with metalsmith. In the future, I'd like Ironsmith to support options for more themes, better upgrades and last, but not least, refactor the build script. If I missed anything or if you find a bug, please feel free to submit a pr or create an issue at [github.com/eddywashere/generator-ironsmith](https://github.com/eddywashere/generator-ironsmith). Thanks!
+Hopefully I covered everything you need to get started with metalsmith. In the future, I'd like Ironsmith to support options for more themes, better upgrades and last, but not least, refactor the build script. If I missed anything or if you find a bug, please feel free to submit a pr or create an issue at [github.com/jaffamonkey/generator-ironsmith](https://github.com/jaffamonkey/generator-ironsmith). Thanks!

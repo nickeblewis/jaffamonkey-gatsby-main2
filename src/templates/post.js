@@ -58,9 +58,9 @@ class BlogPost extends React.Component {
             <article className="markdown" dangerouslySetInnerHTML={{ __html: post.html }} />
             <section css={css.comments}>
               <Disqus
-                shortname="eddywashere"
+                shortname="jaffamonkey"
         				title={post.frontmatter.title}
-        				url={'http://eddywashere.com' + this.props.location.pathname}
+        				url={'http://jaffamonkey.com' + this.props.location.pathname}
               />
             </section>
           </Container>

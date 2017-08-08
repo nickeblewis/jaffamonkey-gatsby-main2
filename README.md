@@ -1,4 +1,4 @@
-# eddywashere.com
+# jaffamonkey.com
 
 This site is built with [gatsby](https://www.gatsbyjs.org/).
 

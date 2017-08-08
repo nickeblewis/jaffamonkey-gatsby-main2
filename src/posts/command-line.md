@@ -2,7 +2,7 @@
 title: An intro to the OS X command line
 layout: post
 date: "2015-07-14"
-author: Eddy Hernandez
+author: jaffamonkey
 tags:
     - osx
     - command line
@@ -262,4 +262,4 @@ Example usage:
 
 ## Wrapping up
 
-Alright! I think that covers the most important skills for working with the terminal, navigating and manipulating the file system. With this knowledge you'll have a better experience learning other [cool tips](https://computers.tutsplus.com/tutorials/40-terminal-tips-and-tricks-you-never-thought-you-needed--mac-51192) or advanced stuff, like [using git](https://try.github.io). In a future post I'll cover some other topics like shells, terminal settings, aliases and environment variables. As always, if you run into any issues with the commands above or if you have any feedback, feel free to leave a comment or [open](https://github.com/eddywashere/eddywashere.com/issues/new) up a github issue.
+Alright! I think that covers the most important skills for working with the terminal, navigating and manipulating the file system. With this knowledge you'll have a better experience learning other [cool tips](https://computers.tutsplus.com/tutorials/40-terminal-tips-and-tricks-you-never-thought-you-needed--mac-51192) or advanced stuff, like [using git](https://try.github.io). In a future post I'll cover some other topics like shells, terminal settings, aliases and environment variables. As always, if you run into any issues with the commands above or if you have any feedback, feel free to leave a comment or [open](https://github.com/jaffamonkey/jaffamonkey.com/issues/new) up a github issue.

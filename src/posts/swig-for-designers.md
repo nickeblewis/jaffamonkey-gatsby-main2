@@ -2,7 +2,7 @@
 title: Swig For Designers
 template: post.html
 date: "2015-06-20"
-author: Eddy Hernandez
+author: jaffamonkey
 tags:
     - swig
     - node

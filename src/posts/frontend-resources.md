@@ -2,7 +2,7 @@
 title: HTML, CSS & Javascript Resources
 template: post.html
 date: "2015-06-17"
-author: Eddy Hernandez
+author: jaffamonkey
 tags:
     - frontend
     - resources
