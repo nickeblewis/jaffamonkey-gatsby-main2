@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import logo from '../images/ewh.svg';
+import logo from '../images/ewh.png';
 
 const css = {
   nav: {
