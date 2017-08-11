@@ -15,4 +15,4 @@ draft: false
 
 [Visual Review - Visual Regression Testing](https://github.com/xebia/VisualReview) 
 
-(./img/visualReview.gif)
+![VisualReview.app](./img/visualReview.gif)
