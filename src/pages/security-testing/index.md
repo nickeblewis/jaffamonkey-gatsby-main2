@@ -6,10 +6,6 @@ path: "/security-testing/"
 draft: false
 ---
 
-_Security Testing is not a mystical art.  Well, it can be at a real hacker level_
-
-### Client-side Security Testing
-
 #### Security Testing is not a mystical art; it is based of sound (and increasing) knowledge about vulnerabilities.
 
 _You only testing your own code?_

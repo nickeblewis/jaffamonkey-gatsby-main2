@@ -6,7 +6,6 @@ path: "/clients/"
 draft: false
 ---
 
-### Clients
 * Transform UK
 * i2N
 * Wowcher

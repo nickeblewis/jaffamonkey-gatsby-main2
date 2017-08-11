@@ -6,10 +6,6 @@ path: "/test-automation/"
 draft: false
 ---
 
-_An often rushed consideration, the ideal is when it's runs parallel to development._
-
-### Test Engineering
-
 Test engineering is often a rushed consideration, when the ideal is when it part of the build and deployment pipeline.
 
 Developers rightly do unit test, to test their code in an isolated way, but there are many layers to an application, and different issues can arise that can be be caught with UI or API tests.
