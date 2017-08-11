@@ -12,7 +12,6 @@ Test engineering that improves quality in the build/deployment pipeline, tracing
 
 ### FRAMEWORK EXPERIENCE
 
-  <div class="container">
     <div class="row">
       <div class="col-lg-3 col-6">
         <div class="service-box" data-toggle="tooltip" data-placement="top" title="HTML">
@@ -56,6 +55,5 @@ Test engineering that improves quality in the build/deployment pipeline, tracing
           <i class="fa-4x devicons devicons-netmagazine wow bounceIn" data-wow-duration="2.0s"></i>
         </div>
       </div>
-    </div>
 
 
