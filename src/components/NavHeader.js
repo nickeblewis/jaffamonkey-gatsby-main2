@@ -59,9 +59,9 @@ const NavHeader = props => {
           <img src={logo} css={css.logo} />
         </Link>
         <ul css={css.list}>
-          <li css={css.listItem}>
-            <Link css={css.listItemLink} to={'/blog/'}>Blog</Link>
-          </li>
+          // <li css={css.listItem}>
+          //   <Link css={css.listItemLink} to={'/blog/'}>Blog</Link>
+          // </li>
         <li css={css.listItem}>
             <Link css={css.listItemLink} to={'/profile/'}>Profile</Link>
         </li>
