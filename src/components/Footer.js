@@ -29,9 +29,6 @@ const Footer = props => {
         {renderSelfie &&
           <img css={css.selfie} src={selfie} title="jaffamonkey" />}
         <p css={css.p}>
-          <strong>jaffamonkey was here</strong>
-        </p>
-        <p css={css.p}>
           follow me on <a href="https://twitter.com/jaffamonkey/">twitter</a>{' '}
           &amp; <a href="https://github.com/jaffamonkey">github</a>
         </p>
