@@ -127,10 +127,10 @@ class BlogIndex extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <Wrapper tag="header">
           <Container size="large">
-            <p>
-              <img css={css.selfie} src={selfie} title="Paul Littlebury" />
-            </p>
-            <h1 css={css.title}>Paul Littlebury</h1>
+        <p>
+        <img css={css.selfie} src={selfie} title="Paul Littlebury" />
+        </p>
+        <h1 css={css.title}>Paul Littlebury</h1>
             <p css={css.subtitle}>Test Engineering And DevOps</p>
             <p css={css.leading}>Test engineering that improves quality in the build/deployment pipeline, tracing requirements to code. Utilising custom opensource test frameworks tools as the foundation, for building automated tests. Automated accessibility, security, cross-browser and performance tests to run with every build..</p>
             <Link css={css.button} to={'/projects/'}>View Projects</Link>
