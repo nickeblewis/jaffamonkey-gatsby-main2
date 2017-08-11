@@ -133,7 +133,7 @@ class BlogIndex extends React.Component {
         <h1 css={css.title}>Paul Littlebury</h1>
             <p css={css.subtitle}>Test Engineering And DevOps</p>
             <p css={css.leading}>Test engineering that improves quality in the build/deployment pipeline, tracing requirements to code. Utilising custom opensource test frameworks tools as the foundation, for building automated tests. Automated accessibility, security, cross-browser and performance tests to run with every build..</p>
-            <Link css={css.button} to={'/projects/'}>View Projects</Link>
+            <Link css={css.button} to={'/projects/'}>Test Framework Projects</Link>
           </Container>
         </Wrapper>
         <Wrapper tag="main">
