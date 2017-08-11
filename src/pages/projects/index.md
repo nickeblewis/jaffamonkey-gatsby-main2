@@ -18,9 +18,13 @@ CucumberJS/Protractor UI/API test framework, with parallel testing
 
 Webdriverio, Cucumber2, Chai
 
+#### [VisualReview](https://github.com/jaffamonkey/VisualReview.git)
+
+VisualReview, a human-friendly tool for testing and reviewing visual regressions.
+
 ### Site source code
 
-#### [gatsby-starter-blog](https://github.com/jaffamonkey/gatsby-starter-bootstrap)
+#### [gatsby-markdown-blog](https://github.com/jaffamonkey/jaffamonkey-gatsby-main2.git)
 
 The code for this website (Gatsby framework)
 
