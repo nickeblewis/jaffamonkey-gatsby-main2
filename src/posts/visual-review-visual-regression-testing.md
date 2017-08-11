@@ -1,5 +1,5 @@
 ---
-title: Visual Review - Visual Regression Testing
+title: Visual Regression Testing
 date: "2017-06-27"
 layout: post
 author: jaffamonkey
