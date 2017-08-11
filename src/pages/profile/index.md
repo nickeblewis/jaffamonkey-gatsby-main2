@@ -12,7 +12,43 @@ draft: false
 * Utilising custom opensource test frameworks tools as the foundation, for building automated tests.
 * Automated accessibility, security, cross-browser and performance tests to run with every build.
 
+### PREVIOUS CLIENTS
 
-
-
+* Transform UK
+* i2N
+* Wowcher
+* TNT (Netherlands)
+* Hiveworks
+* Transform UK
+* KPMG
+* Digital Jigsaw
+* Fortune Cookie
+* Sohnar
+* Tixdaq Limited
+* Spotless Interactive
+* Pearson (Education)
+* Skills for Work
+* Incisive Media
+* BSI
+* Emap
+* Test Manager at BOC
+* Nike
+* Walt Disney Internet Group
+* Seven
+* Virtual Music Stores
+* BBC Technology
+* Oyster Partners
+* o2 (Telefónica UK)
+* GVA Property Consultancy
+* Multex Investor
+* Sony (Playstation)
+* Rufus Leonard
+* Misys
+* Reuters
+* Goudengids
+* Citibank
+* Perot Systems
+* Belgacom
+* Unisys (UK and Netherlands)
+* Sema
 
