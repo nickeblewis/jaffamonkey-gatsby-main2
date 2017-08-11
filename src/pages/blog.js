@@ -23,17 +23,17 @@ const createTags = tags => {
 const css = {
   button: {
     color: '#fff',
-    border: '1px solid #E32B46',
+    border: '1px solid #3371FF',
     padding: '.5rem 1rem',
     display: 'inline-block',
     borderRadius: '2px',
     fontSize: '1rem',
-    backgroundColor: '#E32B46',
+    backgroundColor: '#3371FF',
     marginTop: '1rem',
     textDecoration: 'none',
     ':hover': {
       backgroundColor: 'transparent',
-      color: '#E32B46'
+      color: '#3371FF'
     }
   },
   posts: {
@@ -50,7 +50,7 @@ const css = {
   },
   postTitle: {
     margin: '0 0 .5rem 0',
-    color: '#E32B46',
+    color: '#3371FF',
     fontWeight: '400',
     fontSize: '1.6rem'
   },

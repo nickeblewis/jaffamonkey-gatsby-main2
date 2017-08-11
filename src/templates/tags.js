@@ -38,7 +38,7 @@ const css = {
   },
   postTitle: {
     margin: '0 0 .5rem 0',
-    color: '#E32B46',
+    color: '#3371FF',
     fontWeight: '400',
     fontSize: '1.6rem'
   },

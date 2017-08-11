@@ -19,7 +19,7 @@ const css = {
     padding: '0 1rem'
   },
   tagLink: {
-    color: '#E32B46'
+    color: '#3371FF'
   }
 };
 
