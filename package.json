@@ -6,7 +6,6 @@
   "author": "jaffamonkey <edward.d.hernandez@gmail.com>",
   "dependencies": {
     "date-fns": "^1.28.5",
-    "devicons": "^1.8.0",
     "gatsby": "next",
     "gatsby-link": "next",
     "gatsby-plugin-feed": "next",

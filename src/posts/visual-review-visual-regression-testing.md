@@ -1,12 +1,12 @@
 ---
-   title: Visual Review (Visual Regression Testing)
-   date: "2017-06-27"
-   layout: post
-   author: jaffamonkey
-   tags:
-       - visualregression
-       - casparjs
-   draft: false
+title: Visual Review - Visual Regression Testing
+date: "2017-06-27"
+layout: post
+author: jaffamonkey
+tags:
+    - visualregression
+    - casparjs
+draft: false
 ---
 
 # Visual Review (Visual Regression Testing)
