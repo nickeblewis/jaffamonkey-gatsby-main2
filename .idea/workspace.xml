@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/clients/index.md" afterPath="$PROJECT_DIR$/src/pages/clients/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/projects/index.md" afterPath="$PROJECT_DIR$/src/pages/projects/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/security-testing/index.md" afterPath="$PROJECT_DIR$/src/pages/security-testing/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/test-automation/index.md" afterPath="$PROJECT_DIR$/src/pages/test-automation/index.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -114,8 +111,8 @@
       <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/security-testing/index.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="8" column="97" lean-forward="false" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -328,12 +325,12 @@
       <workItem from="1502432402824" duration="3247000" />
       <workItem from="1502443149131" duration="255000" />
       <workItem from="1502444210977" duration="2597000" />
-      <workItem from="1502450278207" duration="1165000" />
+      <workItem from="1502450278207" duration="1527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10609000" />
+    <option name="totallyTimeSpent" value="10971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
@@ -692,8 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/security-testing/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="120">
+          <caret line="8" column="97" lean-forward="false" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
           <folding />
         </state>
       </provider>

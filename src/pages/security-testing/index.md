@@ -6,7 +6,7 @@ path: "/security-testing/"
 draft: false
 ---
 
-#### Security Testing is not a mystical art; it is based of sound (and increasing) knowledge about vulnerabilities.
+#### Security Testing is not a mystical art; it is based of sound knowledge about vulnerabilities.
 
 _You only testing your own code?_
 
