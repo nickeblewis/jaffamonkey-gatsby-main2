@@ -65,6 +65,15 @@ const NavHeader = props => {
         <li css={css.listItem}>
             <Link css={css.listItemLink} to={'/profile/'}>Profile</Link>
         </li>
+        <li css={css.listItem}>
+          <Link css={css.listItemLink} to={'/test-automation/'}>Test Engineering</Link>
+        </li>
+        <li css={css.listItem}>
+          <Link css={css.listItemLink} to={'/security-testing/'}>Security</Link>
+        </li>
+        <li css={css.listItem}>
+          <Link css={css.listItemLink} to={'/clients/'}>Client</Link>
+        </li>
         </ul>
       </nav>
     </div>
