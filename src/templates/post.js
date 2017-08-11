@@ -60,7 +60,7 @@ class BlogPost extends React.Component {
               <Disqus
                 shortname="jaffamonkey"
         				title={post.frontmatter.title}
-        				url={'http://jaffamonkey.com' + this.props.location.pathname}
+        				url={'http://www.jaffamonkey.com' + this.props.location.pathname}
               />
             </section>
           </Container>
