@@ -9,8 +9,6 @@ tags:
 draft: false
 ---
 
-# Protractor: waiting before clicking
-
 If you have been working with CucumberJS/Protractor, you may have come up with common issue of waits. Protractor has this feature this built in, but it doesn't always get it right. So after attempting several different approaches, with partial successes, the code below (appears) to do a solid job.
 
 ```this.Given(/^I click the (.*) (button|filter|radio|tab|checkbox|link|icon|record|person|asset|accordion)$/, 
