@@ -44,6 +44,7 @@ module.exports = props => {
           title="jaffamonkey.com"
           href="/rss.xml"
         />
+        <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
       </head>
       <body>
         <div id="___gatsby" dangerouslySetInnerHTML={{ __html: props.body }} />
