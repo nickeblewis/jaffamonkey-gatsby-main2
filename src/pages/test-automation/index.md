@@ -16,17 +16,4 @@ I can bring effective test engineering to a project, with a "no waste" philosoph
 
 Don't underestimate the effort required to do good test engineering, and don't underestimate how useful it can be.
 
-![TestFramework.app](./img/TestFramework.gif)
-
-![TestFramework.app](./img/cucumberjs.png)
-![TestFramework.app](./img/behat.png)
-![TestFramework.app](./img/jasmine.png)
-![TestFramework.app](./img/protractor.png)
-![TestFramework.app](./img/selenium.png)
-![TestFramework.app](./img/mocha.png)
-![TestFramework.app](./img/browserstack.png)
-![TestFramework.app](./img/artilleryio.png)
-![TestFramework.app](./img/zaproxy.png)
-![TestFramework.app](./img/"wdio.png)
-![TestFramework.app](./img/pa11y.png)
-![TestFramework.app](./img/jmeter.png)
+![TestFramework.app](./img/cucumberjs.png) ![TestFramework.app](./img/behat.png) ![TestFramework.app](./img/jasmine.png) ![TestFramework.app](./img/protractor.png) ![TestFramework.app](./img/selenium.png) ![TestFramework.app](./img/mocha.png) ![TestFramework.app](./img/browserstack.png) ![TestFramework.app](./img/artilleryio.png) ![TestFramework.app](./img/zaproxy.png) ![TestFramework.app](./img/"wdio.png) ![TestFramework.app](./img/pa11y.png) ![TestFramework.app](./img/jmeter.png)

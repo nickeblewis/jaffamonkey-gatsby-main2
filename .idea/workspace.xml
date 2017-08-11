@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/artilleryio.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/artilleryio.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/behat.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/behat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/browserstack.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/browserstack.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/cucumberjs.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/cucumberjs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/jasmine.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/jasmine.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/jmeter.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/jmeter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/mocha.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/mocha.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/pa11y.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/pa11y.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/protractor.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/protractor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/selenium.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/selenium.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/testing-stack.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/testing-stack.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/wdio.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/wdio.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/test-automation/zaproxy.png" afterPath="$PROJECT_DIR$/src/pages/test-automation/img/zaproxy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/test-automation/index.md" afterPath="$PROJECT_DIR$/src/pages/test-automation/index.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,8 +30,8 @@
       <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/test-automation/index.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="448" lean-forward="false" selection-start-line="18" selection-start-column="448" selection-end-line="18" selection-end-column="448" />
               <folding />
             </state>
           </provider>
@@ -124,7 +112,7 @@
       <file leaf-file-name="html.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
+            <state relative-caret-position="675">
               <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
@@ -223,8 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,6 +261,14 @@
               <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="test-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,6 +280,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,20 +333,21 @@
       <workItem from="1502443149131" duration="255000" />
       <workItem from="1502444210977" duration="2597000" />
       <workItem from="1502450278207" duration="4758000" />
-      <workItem from="1502458181275" duration="846000" />
+      <workItem from="1502458181275" duration="856000" />
+      <workItem from="1502459134970" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15048000" />
+    <option name="totallyTimeSpent" value="15174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11309524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -363,6 +360,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -507,9 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
+        <state relative-caret-position="675">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
@@ -713,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/test-automation/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="448" lean-forward="false" selection-start-line="18" selection-start-column="448" selection-end-line="18" selection-end-column="448" />
           <folding />
         </state>
       </provider>
