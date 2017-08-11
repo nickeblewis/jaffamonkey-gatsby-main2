@@ -107,7 +107,7 @@ article.markdown hr:after {
 }
 
 article.markdown h2 {
-  color: #3371FF;
+  color: #F39C12;
   font-weight: 400;
   line-height: 3rem;
   font-size: 2.46869rem;
@@ -126,7 +126,7 @@ article.markdown h4 {
 }
 
 article.markdown h4 a {
-    color: #3371FF
+    color: #F39C12
 }
 
 article.markdown h4 a:hover,article.markdown h4 a:focus {
@@ -134,12 +134,12 @@ article.markdown h4 a:hover,article.markdown h4 a:focus {
 }
 
 article.markdown a .content-title {
-    color: #3371FF;
+    color: #F39C12;
     margin-top: 0
 }
 
 article.markdown a:hover .content-title,article.markdown a:focus .content-title {
-    color: #3371FF;
+    color: #F39C12;
     margin-top: 0
 }
 
