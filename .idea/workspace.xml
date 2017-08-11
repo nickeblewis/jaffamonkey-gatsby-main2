@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NavHeader.js" afterPath="$PROJECT_DIR$/src/components/NavHeader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/clients/index.md" afterPath="$PROJECT_DIR$/src/pages/clients/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/profile/index.md" afterPath="$PROJECT_DIR$/src/pages/profile/index.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="NavHeader.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/NavHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="596">
+              <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -319,12 +317,12 @@
       <workItem from="1502444210977" duration="2597000" />
       <workItem from="1502450278207" duration="4758000" />
       <workItem from="1502458181275" duration="856000" />
-      <workItem from="1502459134970" duration="1436000" />
+      <workItem from="1502459134970" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16494000" />
+    <option name="totallyTimeSpent" value="16529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
@@ -696,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="596">
+          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           <folding />
         </state>
       </provider>
