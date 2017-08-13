@@ -145,7 +145,6 @@ class BlogIndex extends React.Component {
         </a>
 <h1 class="page-title">jaffamonkey</h1>
         <h2 class="page-description">test engineering, programming devops and tech culture</h2>
-    </div>
           </Container>
         </Wrapper>
         <Wrapper tag="main">
