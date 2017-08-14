@@ -43,32 +43,32 @@ const css = {
   },
   button: {
     color: '#fff',
-    border: '1px solid #F39C12',
+    border: '1px solid #E32B46',
     padding: '.5rem 1rem',
     display: 'inline-block',
     borderRadius: '2px',
     fontSize: '1rem',
-    backgroundColor: '#F39C12',
+    backgroundColor: '#E32B46',
     marginTop: '1rem',
     textDecoration: 'none',
     ':hover': {
       backgroundColor: 'transparent',
-      color: '#F39C12',
+      color: '#E32B46',
       textDecoration: 'none',
     }
   },
   buttonOutline: {
-    border: '1px solid #F39C12',
+    border: '1px solid #E32B46',
     padding: '.5rem 1rem',
     display: 'inline-block',
     borderRadius: '2px',
     fontSize: '1rem',
     textDecoration: 'none',
-    color: '#F39C12',
+    color: '#E32B46',
     backgroundColor: 'transparent',
     ':hover': {
       textDecoration: 'none',
-      backgroundColor: '#F39C12',
+      backgroundColor: '#E32B46',
       color: '#fff'
     }
   },
@@ -86,7 +86,7 @@ const css = {
   },
   postTitle: {
     margin: '0 0 .5rem 0',
-    color: '#F39C12',
+    color: '#E32B46',
     fontWeight: '400',
     fontSize: '1.6rem'
   },
@@ -133,19 +133,7 @@ class BlogIndex extends React.Component {
         <h1 css={css.title}>Paul Littlebury</h1>
             <p css={css.subtitle}>Test Engineering And DevOps</p>
             <p css={css.leading}>Test engineering that improves quality in the build/deployment pipeline, tracing requirements to code. Utilising custom opensource test frameworks tools as the foundation, for building automated tests. Automated accessibility, security, cross-browser and performance tests to run with every build..</p>
-            <Link css={css.button} to={'/projects/'}>Test Framework Projects</Link>
-    <a class="bloglogo" href="https://github.com/jaffamonkey" target="_blank">
-        <span class="icon-github" style="color:white;font-size:2em"></span>
-        </a>
-        &nbsp;
-<a class="bloglogo" href="https://www.linkedin.com/in/jaffamonkey" target="_blank">
-        <span class="icon-linkedin" style="color:white;font-size:2em"></span>
-        </a><a class="bloglogo" href="https://twitter.com/jaffamonkey" target="_blank">
-    <span class="icon-twitter" style="color:white;font-size:2em"></span>
-        </a>
-<h1 class="page-title">jaffamonkey</h1>
-        <h2 class="page-description">test engineering, programming devops and tech culture</h2>
-    </div>
+            <Link css={css.button} to={'/projects/'}>Test Frameworks</Link>
           </Container>
         </Wrapper>
         <Wrapper tag="main">
