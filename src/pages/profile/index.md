@@ -12,7 +12,7 @@ draft: false
 Utilising custom opensource test frameworks tools as the foundation, for building automated tests.
 Automated accessibility, security, cross-browser and performance tests to run with every build.
 
-###### _ Hire me to do it, or show you how to do it_
+#### _ Hire me to do it, or to show you how to do it_
 
 ### PREVIOUS CLIENTS
 

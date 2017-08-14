@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NavHeader.js" afterPath="$PROJECT_DIR$/src/components/NavHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.js" afterPath="$PROJECT_DIR$/src/pages/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/profile/index.md" afterPath="$PROJECT_DIR$/src/pages/profile/index.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +47,8 @@
       <file leaf-file-name="NavHeader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NavHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="671">
+              <caret line="71" column="12" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -66,21 +67,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adding-click-jacking-and-cross-site-scripting-protection.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/posts/adding-click-jacking-and-cross-site-scripting-protection.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visual-review-visual-regression-testing.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/posts/visual-review-visual-regression-testing.md">
+      <file leaf-file-name="adding-click-jacking-and-cross-site-scripting-protection.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/posts/adding-click-jacking-and-cross-site-scripting-protection.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -95,8 +93,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="125" column="11" lean-forward="false" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+            <state relative-caret-position="392">
+              <caret line="135" column="34" lean-forward="false" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -134,8 +132,8 @@
         <entry file="file://$PROJECT_DIR$/src/pages/profile/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="10">
-                <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="52" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="53" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -191,12 +189,12 @@
         <option value="$PROJECT_DIR$/src/posts/visual-review-visual-regression-testing.md" />
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/pages/test-automation/index.md" />
-        <option value="$PROJECT_DIR$/src/components/NavHeader.js" />
         <option value="$PROJECT_DIR$/src/pages/projects/index.md" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/src/pages/clients/index.md" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/pages/profile/index.md" />
+        <option value="$PROJECT_DIR$/src/components/NavHeader.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
       </list>
     </option>
   </component>
@@ -215,8 +213,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="319" />
     <option name="width" value="1680" />
     <option name="height" value="955" />
   </component>
@@ -351,15 +349,15 @@
       <workItem from="1502458181275" duration="856000" />
       <workItem from="1502459134970" duration="1668000" />
       <workItem from="1502461356937" duration="1161000" />
-      <workItem from="1502699194986" duration="1018000" />
+      <workItem from="1502699194986" duration="2154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18905000" />
+    <option name="totallyTimeSpent" value="20041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="955" extended-state="1" />
+    <frame x="0" y="319" width="1680" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -626,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -677,23 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/security-testing/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="97" lean-forward="false" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/posts/adding-click-jacking-and-cross-site-scripting-protection.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -711,31 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/projects/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -743,6 +689,22 @@
           <folding>
             <marker date="1502699735000" expanded="true" signature="423:951" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="71" column="12" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,8 +728,8 @@
     <entry file="file://$PROJECT_DIR$/src/pages/profile/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="10">
-            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="52" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="53" />
             <folding />
           </first_editor>
           <second_editor />
@@ -780,10 +742,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/security-testing/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="97" lean-forward="false" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/projects/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="125" column="11" lean-forward="false" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+        <state relative-caret-position="392">
+          <caret line="135" column="34" lean-forward="false" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
