@@ -31,8 +31,7 @@ And I fill in "#email-address"
 When I press "Submit"
 Then I should see message "Form has been submitted successfully"````
 
-is there are danger in being contrictive? yes, if it was. While it may seem we communicate complex things, a lot of what we say that is actually useful is a lot smaller vocabulary thatm you would imagine.
-
+is there are danger in being constrictive? yes, if it was. While it may seem we communicate complex things, a lot of what we say that is actually useful is a lot smaller vocabulary than you would imagine. The actual language used to communicate something to someone is small.
 
 Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). This means the ladies add a great deal of "filler" to their conversation. (and they wonder why men tune them out!) 
 
