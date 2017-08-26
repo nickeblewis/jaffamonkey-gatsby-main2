@@ -31,3 +31,10 @@ And I fill in "#email-address"
 When I press "Submit"
 Then I should see message "Form has been submitted successfully"````
 
+is there are danger in being contrictive? yes, if it was. While it may seem we communicate complex things, a lot of what we say that is actually useful is a lot smaller vocabulary thatm you would imagine.
+
+
+Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). This means the ladies add a great deal of "filler" to their conversation. (and they wonder why men tune them out!) 
+
+Source: Book, "Men are Pigs, (fortunately women like pork)"
+Jeff Steele, Melbourne, Florida, US
