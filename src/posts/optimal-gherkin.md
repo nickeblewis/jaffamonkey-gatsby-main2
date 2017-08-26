@@ -8,6 +8,8 @@ tags:
     - cucumberjs
 draft: false
 ---
+### what are we trying to say
+
 Nonverbal communication involves the conscious and unconscious processes of encoding and decoding. Encoding is the act of generating information such as facial expressions, gestures, and postures. Encoding information utilizes signals which we may think to be universal. Decoding is the interpretation of information from received sensations given by the encoder. Decoding information utilizes knowledge one may have of certain received sensations.
 
 We think we are original, but there are only so many ways to specify what you want.  Where UX touches on is non-verbal communication which frequently creates subtext to what we say.  Maybe that does extend to writing Gherkin, but that process puts out minds in a different attempted logical approach. This is kind of what causes one of the pitfalls of using a specification language, in that it can become too specific, too quickly. While there are many advocates of free form writing, there is no harm in focusing on generic step-by-step Gherkin, rather than the aesthetically pleasing, but not necessarily helpful, bundled steps. If there are no rules, the test framework becomes at risk of looking like a showcase of different coding styles, and a pain to maintain.
@@ -32,6 +34,8 @@ When I press "Submit"
 Then I should see message "Form has been submitted successfully"````
 
 is there are danger in being constrictive? yes, if it was. While it may seem we communicate complex things, a lot of what we say that is actually useful is a lot smaller vocabulary than you would imagine. The actual language used to communicate something to someone is small.
+
+### how much do we need to say
 
 Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). This means the ladies add a great deal of "filler" to their conversation. (and they wonder why men tune them out!) 
 
