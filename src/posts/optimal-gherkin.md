@@ -27,7 +27,7 @@ Given I submit a valid contact form
 
 There is nothing wrong with this, in fact it's a smart approach if its a form unlikely to change and no inter-dependencies.  The general approach to take is bundle steps only when required - while Gherkin features may look overly verbose, they are also documenting actual steps a user takes.
 
-```
+``` javascript
 Given I click on the button Contact
 And I fill in #email-address
 And I fill in #contact-name
