@@ -48,6 +48,7 @@ module.exports = props => {
       <body>
         <div id="___gatsby" dangerouslySetInnerHTML={{ __html: props.body }} />
         {props.postBodyComponents}
+        <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
       </body>
     </html>
   );
