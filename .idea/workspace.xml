@@ -21,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="447">
-                <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -257,12 +257,12 @@
       <workItem from="1503179793030" duration="752000" />
       <workItem from="1503918756395" duration="2982000" />
       <workItem from="1504012141094" duration="1018000" />
-      <workItem from="1504017337291" duration="4345000" />
+      <workItem from="1504017337291" duration="4362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31616000" />
+    <option name="totallyTimeSpent" value="31633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="959" extended-state="0" />
@@ -681,8 +681,8 @@
     <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="447">
-            <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
