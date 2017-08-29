@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" afterPath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" afterPath="$PROJECT_DIR$/optimal-gherkin.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="optimal-gherkin.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
+        <entry file="file://$PROJECT_DIR$/optimal-gherkin.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="275">
@@ -205,15 +205,16 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/test-automation/img" />
-      <recent name="$PROJECT_DIR$/src/posts/img" />
-      <recent name="$PROJECT_DIR$/src/posts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/posts" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/pages/test-automation/img" />
+      <recent name="$PROJECT_DIR$/src/posts/img" />
+      <recent name="$PROJECT_DIR$/src/posts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,12 +258,12 @@
       <workItem from="1503179793030" duration="752000" />
       <workItem from="1503918756395" duration="2982000" />
       <workItem from="1504012141094" duration="1018000" />
-      <workItem from="1504017337291" duration="4970000" />
+      <workItem from="1504017337291" duration="4993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32241000" />
+    <option name="totallyTimeSpent" value="32264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="959" extended-state="0" />
@@ -678,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
+    <entry file="file://$PROJECT_DIR$/optimal-gherkin.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="275">
