@@ -8,7 +8,6 @@ tags:
     - cucumberjs
 draft: false
 ---
-<a data-pin-do="embedPin" data-pin-width="large" href="https://www.pinterest.com/pin/191543790374090387/"></a>
 
 > Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). - Men are Pigs, (fortunately women like pork) : Jeff Steele, Melbourne, Florida, US
 
