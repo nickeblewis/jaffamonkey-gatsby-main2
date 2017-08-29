@@ -21,7 +21,7 @@ An area that UX touches on, is non-verbal communication which introduces subtext
 
 ### how much do we need to say
 
-Gherkin, the much maligned and ridiculed specification and underused language, has been around for a few years now.  Because I work in projects that at least aspire to a BDD metnality, Gherkin is the default specificatino language used.  Ask a developer how to do it, and they will put most test steps in code, not in the transparent Gherkin format. For example, for a test test that require filling in a valid form, a developer will most likely bundle this into one step:
+Gherkin, a sometimes maligned, ridiculed and underused specification language, has been around for a few years now.  Because I work in projects that at least aspire to a BDD metnality, Gherkin is the default specificatino language used.  Ask a developer how to do it, and they will put most test steps in code, not in the transparent Gherkin format. For example, for a test test that require filling in a valid form, a developer will most likely bundle this into one step:
 
 ```
 Given I submit a valid contact form
