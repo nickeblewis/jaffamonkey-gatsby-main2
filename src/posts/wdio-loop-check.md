@@ -17,7 +17,7 @@ A common check is to verify results in a tabular format (commonly search results
 
 ``` javacript
     browser.setValue('#search-keywords', 'test');
-    browser.click('#edit-submit-par-data-transition-journey-1-step-1');
+    browser.click('#search-button');
     const links = $$('#search-result-row');
     links.forEach(function (link) {
         let elem = link.getText();
