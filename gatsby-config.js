@@ -12,6 +12,9 @@ const config = {
     author: 'jaffamonkey'
   },
   plugins: [
+      {
+          resolve: `gatsby-plugin-feed`
+      }
     {
       resolve: `gatsby-source-filesystem`,
       options: {
