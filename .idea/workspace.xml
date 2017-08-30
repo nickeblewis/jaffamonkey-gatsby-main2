@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" afterPath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
     </list>
@@ -22,9 +23,48 @@
         <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="705">
-                <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="57" column="7" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gatsby-plugin-feed/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="236">
+                <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+                <folding>
+                  <marker date="1498972139000" expanded="true" signature="581:1467" ph="[...]" />
+                  <marker date="1498972139000" expanded="true" signature="585:1465" ph="{&quot;resolve&quot;: `gatsby-plugin-feed`...}" />
+                  <marker date="1498972139000" expanded="true" signature="635:1461" ph="{&quot;query&quot;: `&#10;        {&#10;          site {&#10;            siteMetadata {&#10;              title&#10;              description&#10;              siteUrl&#10;            }&#10;          }&#10;        }&#10;      `...}" />
+                  <marker date="1498972139000" expanded="true" signature="832:1455" ph="[...]" />
+                  <marker date="1498972139000" expanded="true" signature="842:1447" ph="{&quot;query&quot;: `&#10;            {&#10;              allMarkdownRemark(&#10;                limit: 1000,&#10;                sort: { order: DESC, fields: [frontmatter___date] },&#10;                frontmatter: { draft: { ne: true } }&#10;              ) {&#10;                edges {&#10;                  node {&#10;                    excerpt&#10;                    html&#10;                    fields { slug }&#10;                    frontmatter {&#10;                      title&#10;                      date&#10;                    }&#10;                  }&#10;                }&#10;              }&#10;            }&#10;          `...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -54,19 +94,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/posts/test.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,19 +110,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
                 <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="12" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="from-wordpress-to-gatsbyjs.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -163,11 +177,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/posts/adding-click-jacking-and-cross-site-scripting-protection.md" />
         <option value="$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md" />
         <option value="$PROJECT_DIR$/src/posts/test-engineering-guide.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pages/security-testing/index.md" />
         <option value="$PROJECT_DIR$/src/templates/post.js" />
         <option value="$PROJECT_DIR$/src/posts/visual-review-visual-regression-testing.md" />
@@ -185,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/posts/wdio-loop-check.md" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/static/admin/index.html" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
       </list>
     </option>
@@ -203,6 +217,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -239,18 +256,7 @@
             <path>
               <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,12 +326,12 @@
       <workItem from="1503918756395" duration="2982000" />
       <workItem from="1504012141094" duration="1018000" />
       <workItem from="1504017337291" duration="14443000" />
-      <workItem from="1504102448665" duration="36000" />
+      <workItem from="1504102448665" duration="1309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41750000" />
+    <option name="totallyTimeSpent" value="43023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-26" y="23" width="1680" height="959" extended-state="0" />
@@ -364,13 +370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
@@ -471,24 +470,10 @@
     <entry file="file://$PROJECT_DIR$/src/posts/swig-for-designers.md" />
     <entry file="file://$PROJECT_DIR$/src/posts/frontend-resources.md" />
     <entry file="file://$PROJECT_DIR$/src/posts/command-line.md" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Disqus.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="167" column="32" lean-forward="false" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -764,11 +749,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gatsby-plugin-feed/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="236">
+            <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <folding>
+              <marker date="1498972139000" expanded="true" signature="581:1467" ph="[...]" />
+              <marker date="1498972139000" expanded="true" signature="585:1465" ph="{&quot;resolve&quot;: `gatsby-plugin-feed`...}" />
+              <marker date="1498972139000" expanded="true" signature="635:1461" ph="{&quot;query&quot;: `&#10;        {&#10;          site {&#10;            siteMetadata {&#10;              title&#10;              description&#10;              siteUrl&#10;            }&#10;          }&#10;        }&#10;      `...}" />
+              <marker date="1498972139000" expanded="true" signature="832:1455" ph="[...]" />
+              <marker date="1498972139000" expanded="true" signature="842:1447" ph="{&quot;query&quot;: `&#10;            {&#10;              allMarkdownRemark(&#10;                limit: 1000,&#10;                sort: { order: DESC, fields: [frontmatter___date] },&#10;                frontmatter: { draft: { ne: true } }&#10;              ) {&#10;                edges {&#10;                  node {&#10;                    excerpt&#10;                    html&#10;                    fields { slug }&#10;                    frontmatter {&#10;                      title&#10;                      date&#10;                    }&#10;                  }&#10;                }&#10;              }&#10;            }&#10;          `...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="57" column="7" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="705">
-            <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

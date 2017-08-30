@@ -11,7 +11,7 @@ draft: false
 
 ### how much do we need to say
 
-> Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). - Men are Pigs, (fortunately women like pork) : Jeff Steele, Melbourne, Florida, US
+`Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). - Men are Pigs, (fortunately women like pork) : Jeff Steele, Melbourne, Florida, US`
 
 While we may imagine we communicate in a clever complex manner, a lot of what we say that is actually useful is a lot smaller vocabulary than you would imagine. The amount of useful words used to communicate something to someone, is small - we are self-serving wafflers, trying to establish our points with a mixture of business lingo, body language and strategic alignment with others.  While natural, on a software development project, that can cause pain (and cost).  I am not saying we have to approach specifications in a totally unemotional way, but ultimately you have to derive meaning from what people ask for.  Misinterpretation is common pitfall in tech.  Over-analysing is another. The amount of meetings I have sat through, wondering whether scooping out an eyeball with a finger, would help distract me from the mind-numbing tedium of people pointless discussing minute specification detail. Painful.
 
