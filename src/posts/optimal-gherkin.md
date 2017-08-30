@@ -13,8 +13,6 @@ draft: true
 
 > Working males average 2000-3000, females from 10,000-20000. However, both average about 500-700 words of actual value (i.e. words which have intent to communicate to another person an item of importance to both). - Men are Pigs, (fortunately women like pork) : Jeff Steele, Melbourne, Florida, US
 
-![BlahBlah.app](./img/blahblah.jpg)
-
 While we may imagine we communicate in a clever complex manner, a lot of what we say that is actually useful is a lot smaller vocabulary than you would imagine. The amount of useful words used to communicate something to someone, is small - we are self-serving wafflers, trying to establish our points with a mixture of business lingo, body language and strategic alignment with others.  While natural, on a software development project, that can cause pain (and cost).  I am not saying we have to approach specifications in a totally unemotional way, but ultimately you have to derive meaning from what people ask for.  Misinterpretation is common pitfall in tech.  
 
 User stories are a convenient 3-line approach, to describing requirements - they can be viewed as high-level user journeys, but in that brief format still open to interpretation.  We have all heard the overused phrase “starting the conversation” and that is what user stories are intended to do, but commonly treated as a done deal.  Well-done user stories are useful, and development team can break these down into tasks, and questions.  Only a fool would think that a user story is enough to fuel development.  What you want is (testable) acceptance criteria.  Fitnesse was the first test framework I used, to create acceptance tests based on natural language. BDD introduced a whole new set of tools to play with on this front, and introduced a standardised format for writing executable specs, called Gherkin.
@@ -24,6 +22,8 @@ Gherkin is a commonly maligned, ridiculed, triumphed and underused specification
 It isn't a big shift to think user journeys, instead of user stories.  And this is far closer to specification by example. A far easier way for people to explain themselves in terms of examples. And easier to write down. So firstly you have clear user stories with clear acceptance criteria based on actual examples.  These examples become the acceptance criteria.  The End.
 
 Of course it’s not the end, people change their minds, get things wrongs, influenced by new events.  And with acceptance criteria in testable user journey format, change becomes easier.  The advantage of Gherkin is it’s an executable specification language, and easier to maintain that purely coded tests.  
+
+![BlahBlah.app](./img/blahblah.jpg)
 
 ### what are we trying to say
 

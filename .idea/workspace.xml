@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" afterPath="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="optimal-gherkin.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="optimal-gherkin.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -168,10 +168,10 @@
         <option value="$PROJECT_DIR$/src/html.js" />
         <option value="$PROJECT_DIR$/optimal-gherkin.md" />
         <option value="$PROJECT_DIR$/src/posts/protractor-waiting-before-clicking.md" />
-        <option value="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
         <option value="$PROJECT_DIR$/src/posts/wdio-loop-check.md" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/static/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
       </list>
     </option>
   </component>
@@ -222,6 +222,12 @@
               <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
@@ -302,12 +308,12 @@
       <workItem from="1503179793030" duration="752000" />
       <workItem from="1503918756395" duration="2982000" />
       <workItem from="1504012141094" duration="1018000" />
-      <workItem from="1504017337291" duration="12337000" />
+      <workItem from="1504017337291" duration="12764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39608000" />
+    <option name="totallyTimeSpent" value="40035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="176" width="1680" height="959" extended-state="0" />
@@ -697,17 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/posts/wdio-loop-check.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -748,6 +743,17 @@
         <state relative-caret-position="195">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/optimal-gherkin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
