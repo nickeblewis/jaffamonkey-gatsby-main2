@@ -56,54 +56,7 @@ const config = {
       options: {
         trackingId: `UA-7686535-1`
       }
-    },
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                site_url
-              }
-            }
-          }
-        `,
-        feeds: [
-          {
-            query: `
-              {
-                allMarkdownRemark(
-                  limit: 20,
-                  sort: {order: DESC, fields: [frontmatter___date]},
-                  filter:{
-                    frontmatter: {draft: {ne: true}},
-                    fields: {collection: {eq: "posts"}}
-                  }
-                ) {
-                  edges {
-                    node {
-                      excerpt
-                      html
-                      fields {
-                        slug
-                      }
-                      frontmatter {
-                        title
-                        date
-                      }
-                    }
-                  }
-                }
-              }
-            `,
-            output: '/rss.xml'
-          }
-        ]
-      }
-    },
+    }
     // `gatsby-plugin-offline` TODO: wait for https://github.com/gatsbyjs/gatsby/issues/1189
   ]
 };
