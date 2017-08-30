@@ -42,7 +42,7 @@ module.exports = {
         }, function () {
             waitUntil(function () {
                 // Wait until the login has been success and the /news.html has loaded
-                return window.location.href === 'http://localhost:8111/dv/rd-dashboard';
+                return window.location.href === 'http://example.com/login-success';
             }, 20, next);
         });
     }
@@ -52,5 +52,5 @@ module.exports = {
 ### Run pa11y
 
 ``` bash
-pa11y --config ./path/to/config.json http://example.com
+pa11y --config ./path/to/config.json http://example.com/protected-page.html
 ```
