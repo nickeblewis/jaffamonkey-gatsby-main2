@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: jaffamonkey/jaffamonkey-gatsby-main2 # Path to your Github repository
+  branch: master # Branch to update
+
+media_folder: "src/img"
+public_folder: "/public/static"
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "src/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "markdown"}

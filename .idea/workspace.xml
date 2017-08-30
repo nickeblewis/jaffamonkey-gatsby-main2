@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/wdio-loop-check.md" afterPath="$PROJECT_DIR$/src/posts/wdio-loop-check.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,15 +31,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wdio-loop-check.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wdio-loop-check.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/posts/wdio-loop-check.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,8 +58,8 @@
         <entry file="file://$PROJECT_DIR$/src/posts/protractor-waiting-before-clicking.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="120" lean-forward="false" selection-start-line="11" selection-start-column="120" selection-end-line="11" selection-end-column="120" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -150,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/posts/protractor-waiting-before-clicking.md" />
         <option value="$PROJECT_DIR$/src/posts/optimal-gherkin.md" />
         <option value="$PROJECT_DIR$/src/posts/wdio-loop-check.md" />
+        <option value="$PROJECT_DIR$/static/admin/config.yml" />
       </list>
     </option>
   </component>
@@ -205,20 +217,7 @@
               <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaffamonkey-gatsby-main2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jaffamonkey-gatsby-main2" type="b2602c69:ProjectViewProjectNode" />
@@ -293,12 +292,12 @@
       <workItem from="1503179793030" duration="752000" />
       <workItem from="1503918756395" duration="2982000" />
       <workItem from="1504012141094" duration="1018000" />
-      <workItem from="1504017337291" duration="11539000" />
+      <workItem from="1504017337291" duration="11954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38810000" />
+    <option name="totallyTimeSpent" value="39225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="176" width="1680" height="959" extended-state="0" />
@@ -337,13 +336,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/ewh.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -684,22 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/posts/protractor-waiting-before-clicking.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="120" lean-forward="false" selection-start-line="11" selection-start-column="120" selection-end-line="11" selection-end-column="120" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/posts/visual-review-visual-regression-testing.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -730,11 +706,35 @@
     <entry file="file://$PROJECT_DIR$/src/posts/wdio-loop-check.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/posts/protractor-waiting-before-clicking.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
