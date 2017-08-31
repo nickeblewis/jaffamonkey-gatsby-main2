@@ -1,6 +1,6 @@
 ---
 title: From Wordpress to GatsbyJS
-date: "2017-06-27"
+date: "2017-08-31"
 layout: post
 author: jaffamonkey
 tags:
