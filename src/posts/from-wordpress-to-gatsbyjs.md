@@ -13,19 +13,19 @@ Switching from Wordpress to using GatsbyJS framework for my own site, and using 
 
 #### The quick way to get started:
 
-* Download a gatsbyjs starter repo (https://github.com/jaffamonkey/jaffamonkey-gatsby-main2.git)
-* Use https://github.com/dreikanter/wp2md to convert Wordpress XML export fields for posts and pages.
-* You will have to do some tweaking of the summary info at the top of exported markdown files, in order for posts to appear on your site.
+* Fork a gatsbyjs starter repo (e.g. https://github.com/jaffamonkey/jaffamonkey-gatsby-main2.git)
+* Use https://github.com/dreikanter/wp2md to convert your Wordpress XML export for posts and pages.
 * Copy your converted posts and page into the corresponding directories in the repo you cloned.
+* You will have to do some tweaking of the summary info at the top of exported markdown files, in order for posts to appear on your site.
 * Signup for account on https://app.netlify.com
-* Follow guide to add new site from git, and check successfully deployed
+* Follow guide to add new site from github, and check successfully deployed
 
 #### Using Netlify CMS (optional)
 
 If you prefer a UI for editing your content, Netflify provide hosted service you can hook into.
 
-* Login to your github account and add new OAuth application for your new website url
-* Create admin folder under the static folder
+* Login to your github account and add new OAuth application for your new website url (from your Netlify deployment)
+* Clone repo so you can work on it locally, and create admin folder under the static folder
 * Add index.html
 
 ``` html
@@ -70,3 +70,4 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 ```
 * Once deployed, access your admin area by navgiating to http://site.url/admin
+* Push changes to github and Netlify will automatically deploy your changes.
