@@ -13,7 +13,7 @@ Switching from Wordpress to using GatsbyJS framework for my own site, and using 
 
 #### The quick way to get started:
 
-* Fork a gatsbyjs starter repo (e.g. https://github.com/jaffamonkey/jaffamonkey-gatsby-main2.git)
+* Fork a Gatsbyjs starter repo (e.g. https://github.com/jaffamonkey/jaffamonkey-gatsby-main2.git)
 * Use https://github.com/dreikanter/wp2md to convert your Wordpress XML export for posts and pages.
 * Copy your converted posts and page into the corresponding directories in the repo you cloned.
 * You will have to do some tweaking of the summary info at the top of exported markdown files, in order for posts to appear on your site.

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e05574-05d0-4e67-95b8-ce46bc75f19d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md" afterPath="$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -78,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="494">
-                <caret line="72" column="76" lean-forward="false" selection-start-line="72" selection-start-column="76" selection-end-line="72" selection-end-column="76" />
+              <first_editor relative-caret-position="-316">
+                <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -339,12 +338,12 @@
       <workItem from="1504107284820" duration="532000" />
       <workItem from="1504108821492" duration="1383000" />
       <workItem from="1504173717011" duration="2024000" />
-      <workItem from="1504192576013" duration="173000" />
+      <workItem from="1504192576013" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48371000" />
+    <option name="totallyTimeSpent" value="48414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="57" width="1680" height="722" extended-state="0" />
@@ -766,8 +765,8 @@
     <entry file="file://$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="494">
-            <caret line="72" column="76" lean-forward="false" selection-start-line="72" selection-start-column="76" selection-end-line="72" selection-end-column="76" />
+          <first_editor relative-caret-position="-316">
+            <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
