@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="376">
-                <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -338,12 +338,12 @@
       <workItem from="1504102448665" duration="2545000" />
       <workItem from="1504107284820" duration="532000" />
       <workItem from="1504108821492" duration="1383000" />
-      <workItem from="1504173717011" duration="1489000" />
+      <workItem from="1504173717011" duration="1708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47663000" />
+    <option name="totallyTimeSpent" value="47882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="57" width="1680" height="722" extended-state="0" />
@@ -757,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -765,8 +765,8 @@
     <entry file="file://$PROJECT_DIR$/src/posts/from-wordpress-to-gatsbyjs.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
             <folding />
           </first_editor>
           <second_editor />

@@ -17,11 +17,14 @@ Switching from Wordpress to using GatsbyJS framework for my own site, and using 
 * Use https://github.com/dreikanter/wp2md to convert Wordpress XML export fields for posts and pages.
 * You will have to do some tweaking of the summary info at the top of exported markdown files, in order for posts to appear on your site.
 * Copy your converted posts and page into the corresponding directories in the repo you cloned.
+* Signup for account on https://app.netlify.com
+* Follow guide to add new site from git, and check successfully deployed
 
 #### Using Netlify CMS (optional)
 
 If you prefer a UI for editing your content, Netflify provide hosted service you can hook into.
 
+* Login to your github account and add new OAuth application for your new website url
 * Create admin folder under the static folder
 * Add index.html
 
