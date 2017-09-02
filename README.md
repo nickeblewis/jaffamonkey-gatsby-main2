@@ -9,7 +9,6 @@ Install dependencies
 ```
 yarn
 ```
-
 Run local server on http://localhost:8000
 
 ```

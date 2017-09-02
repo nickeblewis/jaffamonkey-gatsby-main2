@@ -3,7 +3,7 @@
   "private": true,
   "description": "website",
   "version": "1.0.0",
-  "author": "jaffamonkey <edward.d.hernandez@gmail.com>",
+  "author": "jaffamonkey <paullittlebury@gmail.com>",
   "dependencies": {
     "date-fns": "^1.28.5",
     "gatsby": "next",
