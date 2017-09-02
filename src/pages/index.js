@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import get from 'lodash/get';
 import isArray from 'lodash/isArray';
 import Helmet from 'react-helmet';
-import selfie from '../images/me2.jpg';
+import selfie from '../images/me.jpg';
 import formatDate from 'date-fns/format';
 import Wrapper from '../components/Wrapper';
 import Container from '../components/Container';
