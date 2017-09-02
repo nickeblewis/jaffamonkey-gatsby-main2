@@ -30,7 +30,7 @@ module.exports = props => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="jaffamonkey - UI Engineer / San Francisco, CA"
+          content="jaffamonkey - test engineering and devops"
         />
         <link href={require('./images/ewh.ico')} rel="icon" />
         {props.headComponents}
